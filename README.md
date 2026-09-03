@@ -1,8 +1,22 @@
 # Leveraged Credit Underwriting, Debt Capacity & Downside Recovery
 
+[![Validation](https://github.com/Prasanna-K-123/leveraged-credit-underwriting/actions/workflows/validation.yml/badge.svg?branch=main)](https://github.com/Prasanna-K-123/leveraged-credit-underwriting/actions/workflows/validation.yml)
+
 A source-traceable public-information credit-underwriting project using Carnival SEC filings to reconstruct annual and TTM operating performance, gross-principal debt, carrying-value reconciliation, maturity/refinancing exposure, covenant context, downside leverage and a deliberately simplified recovery waterfall.
 
 The project is designed to keep **reported fact, derived metric, analyst stress and legal conclusion** separate. It does not convert public ratios into unsupported lender or investment claims.
+
+## Recruiter snapshot
+
+| Signal | Verified evidence |
+|---|---|
+| Source discipline | pinned Carnival 2025 10-K and 2026 Q2 10-Q accessions, source URLs, tag/accession register and raw-file SHA-256 identities |
+| Debt reconciliation | **$24,889m** carrying-value debt vs **$25,570m** gross principal/maturities; each definition reconciles internally, with only a **$1m** filing-table rounding gap in capital-stack buckets |
+| TTM credit profile | revenue **$27,311m**, EBITDA proxy **$7,327m**, FCF proxy **$3,200m**, interest **$1,208m** |
+| Current leverage/coverage | gross principal debt / EBITDA proxy **3.49x**; EBITDA / interest proxy **6.07x** |
+| Downside analysis | severe stress reaches **5.62x** gross leverage and **3.01x** coverage; at 5x EV/EBITDA the simplified severe waterfall gives about **79.5%** to unsecured debt without subsidiary guarantee |
+
+**Direct evidence:** [`reference manifest`](reference/MANIFEST.md) · [`source register`](reference/source_register.csv) · [`TTM metrics`](reference/ttm_metrics.csv) · [`scenario analysis`](reference/scenario_analysis.csv) · [`recovery sensitivity`](reference/recovery_waterfall_sensitivity.csv) · [`dated underwriting memo`](reports/reference_credit_underwriting_memo.md)
 
 ## Validated reference snapshot
 
