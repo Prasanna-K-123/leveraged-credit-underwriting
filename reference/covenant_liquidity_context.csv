@@ -1,0 +1,2 @@
+minimum_interest_coverage_ratio,maximum_debt_to_capital_pct,minimum_liquidity_millions,undrawn_revolver_millions,secured_collateral_book_value_millions,ship_collateral_book_value_millions,covenant_calculation_warning
+3.0,65.0,1500.0,4500.0,22400.0,20600.0,Reported agreement definitions differ from simple public-data proxies; do not claim covenant headroom from proxy ratios.

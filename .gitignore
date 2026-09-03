@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
+.env
+.idea/
+.vscode/
+
+# Public SEC source downloads are regenerated at runtime. Accepted release
+# evidence is persisted separately from this transient raw-data path.
+data/raw/

@@ -1,0 +1,45 @@
+name: Leveraged Credit Underwriting Validation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -r requirements.txt
+          python -m pip install -e .
+      - name: Unit tests
+        run: python -m pytest tests -q
+      - name: Reproduce accepted underwriting reference
+        run: python verify_reference.py
+      - name: Evidence inventory
+        if: always()
+        run: |
+          find reference -maxdepth 2 -type f -print 2>/dev/null || true
+          find reports -maxdepth 2 -type f -print 2>/dev/null || true
+          find results/reference_reproduction -maxdepth 2 -type f -print 2>/dev/null || true
+      - name: Upload reference-verification evidence
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: leveraged-credit-reference-verification
+          path: results/reference_reproduction
+          retention-days: 30
