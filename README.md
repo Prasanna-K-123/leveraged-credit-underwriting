@@ -79,7 +79,7 @@ python verify_reference.py
 SEC_USER_AGENT='Your Name your-email@example.com research' python run_credit_research.py
 ```
 
-That command intentionally queries current SEC data and may select newer filings. Its output is a **new timestamped underwriting update** and cannot silently replace the dated accepted reference result.
+That command intentionally queries current SEC data and may select newer filings. **Important current limitation:** `build_ttm_metrics()` hard-codes a **150–220-day YTD duration filter** for both current and prior 10-Q inputs, appropriate to the accepted **Q2** snapshot but not a period-general Q1/Q3 bridge. The refresh routine can choose the latest 10-Q without enforcing that quarter. Therefore this command is only a **Q2-compatible exploratory refresh**, and attempts against other quarters may fail or choose unsuitable facts; do not claim an arbitrary-latest-quarter TTM result has been validated. The accepted pinned 2026 Q2 reference and its exact file hashes are unchanged. Do not overwrite that reference with a refresh without a separately specified, tested quarter-aware bridge. Its output is a **new timestamped underwriting update** only when independently checked and cannot silently replace the dated accepted reference result.
 
 ## Evidence boundary
 
