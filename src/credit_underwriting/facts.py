@@ -254,6 +254,24 @@ def _duration_value_and_source(
     return point.value / 1e6, point.source_row()
 
 
+def require_supported_q2_ttm_bridge(quarterly_report_date: str, latest_annual_report_date: str) -> None:
+    """Fail closed when this deliberately Q2-specific 150-220-day YTD bridge is misused.
+
+    This is NOT a general fiscal-quarter detector. The annual and quarterly
+    periods must be roughly six months apart, as in the accepted Carnival
+    2025-11-30 FY -> 2026-05-31 Q2 reference.
+    """
+    q_end = date.fromisoformat(quarterly_report_date)
+    fy_end = date.fromisoformat(latest_annual_report_date)
+    days = (q_end - fy_end).days
+    if not 150 <= days <= 220:
+        raise ValueError(
+            "TTM refresh supports only Q2-like YTD periods 150-220 days after "
+            "the most recent fiscal year end; period-aware Q1/Q3 bridging "
+            f"is not implemented (fiscal year end={fy_end}, quarter end={q_end}, days={days})."
+        )
+
+
 def build_ttm_metrics(
     companyfacts: dict[str, Any],
     latest_10q_report_date: str,
@@ -261,6 +279,7 @@ def build_ttm_metrics(
     duration_overrides: DurationOverrides | None = None,
 ) -> tuple[dict[str, float], pd.DataFrame]:
     """Bridge latest FY to TTM: latest FY + current YTD - prior-year comparable YTD."""
+    require_supported_q2_ttm_bridge(latest_10q_report_date, latest_10k_report_date)
     q_end = date.fromisoformat(latest_10q_report_date)
     prior_q_end = q_end.replace(year=q_end.year - 1).isoformat()
     sources: list[dict[str, Any]] = []

@@ -6,7 +6,7 @@ from pathlib import Path
 
 import pandas as pd
 
-from credit_underwriting.facts import build_annual_history, build_ttm_metrics, current_balance_sheet
+from credit_underwriting.facts import build_annual_history, build_ttm_metrics, current_balance_sheet, require_supported_q2_ttm_bridge
 from credit_underwriting.filing import (
     extract_cash_flow_metric_series_millions,
     extract_covenant_liquidity_context,
@@ -79,6 +79,9 @@ def main() -> None:
     company_name = companyfacts.get("entityName", submissions.get("name", "Carnival"))
     latest_10k = latest_filing(submissions, "10-K")
     latest_10q = latest_filing(submissions, "10-Q")
+    # Stop before downloading/overwriting raw filing snapshots when a non-Q2
+    # latest quarter cannot be bridged by the frozen 150-220-day YTD logic.
+    require_supported_q2_ttm_bridge(latest_10q["report_date"], latest_10k["report_date"])
 
     annual_html, annual_filing_snapshot = fetch_filing_html(latest_10k, raw_dir)
     quarterly_html, quarterly_filing_snapshot = fetch_filing_html(latest_10q, raw_dir)
