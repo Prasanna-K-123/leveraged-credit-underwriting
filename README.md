@@ -1,3 +1,5 @@
+> 13 October2026: a separate strict Q1/Q2/Q3 **calculation API** is now implemented and checked using144 synthetic calendar/context cases. The original default live CLI and heuristic table parser remain Q2-only. Read the [new exact-period review](docs/EXPLICIT_PERIOD_BRIDGE_REVIEW.md) for method, reproducibility and the empirical-refresh boundary. Accepted reference outputs are unchanged.
+
 # Leveraged Credit Underwriting, Debt Capacity & Downside Recovery
 
 [![Validation](https://github.com/Prasanna-K-123/leveraged-credit-underwriting/actions/workflows/validation.yml/badge.svg?branch=main)](https://github.com/Prasanna-K-123/leveraged-credit-underwriting/actions/workflows/validation.yml)
@@ -90,3 +92,11 @@ That command intentionally queries current SEC data and may select newer filings
 - No investment recommendation, target price, private information, covenant-headroom conclusion or lender-diligence claim is made.
 
 See [`docs/RESEARCH_PROTOCOL.md`](docs/RESEARCH_PROTOCOL.md), [`docs/METHODOLOGY.md`](docs/METHODOLOGY.md), and [`docs/VALIDATION.md`](docs/VALIDATION.md).
+
+## Exact-context fiscal-period API — 13 October2026
+
+A separately registered `credit_underwriting.period_bridge.build_ttm_metrics_period_aware` supports fixed month-end Q1/Q2/Q3 fiscal calendars using exact duration starts/ends and an explicit filing cutoff. It refuses unrelated single-quarter rows, unavailable future filings, ambiguous current facts, unsupported calendars and table overrides without real interval/provenance fields. The new19 substantive checks include all144 calendar cases and their2,592 synthetic source contexts.
+
+[Method registration](docs/EXPLICIT_PERIOD_BRIDGE_PROTOCOL.md) · [complete execution review](docs/EXPLICIT_PERIOD_BRIDGE_REVIEW.md) · [full synthetic reference](research_period_bridge/reference_summary.json).
+
+This separate API does not change or retrospectively certify the original Q2 live refresh and table parser. Actual Q1/Q3 issuer refreshes remain unverified. No accepted reference number, original source/parser/workflow or adverse underwriting finding is changed; the former README is preserved exactly in the dated history document.
