@@ -1,0 +1,25 @@
+name: Explicit fiscal-period bridge reference
+on:
+  push:
+    branches: [main, fix/strict-fiscal-period-bridge-20261013]
+  pull_request:
+    branches: [main]
+permissions:
+  contents: read
+jobs:
+  period-reference:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install numpy==2.3.4 pandas==2.3.3
+      - name: Verify original identities and full registered calendar/context replay
+        run: python research_period_bridge/run.py --output /tmp/explicit-period-bridge
+      - uses: actions/upload-artifact@v4
+        with:
+          name: explicit-period-bridge-synthetic-evidence
+          path: /tmp/explicit-period-bridge
+          if-no-files-found: error
