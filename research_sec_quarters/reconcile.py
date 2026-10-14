@@ -35,9 +35,10 @@ def clean_text(element):
 
 
 def number(text):
-    text = "".join(text.split()).replace("$", "").replace(",", "")
-    if not re.fullmatch(r"(?:-?\d+(?:\.\d+)?|\(\d+(?:\.\d+)?\))", text):
+    numeric = r"(?:\d+|\d{1,3}(?:,\d{3})+)(?:\.\d+)?"
+    if not re.fullmatch(rf"\s*\$?\s*(?:-?{numeric}|\(\s*\$?\s*{numeric}\s*\))\s*", text):
         raise ValueError("Unsupported visible numeric cell")
+    text = "".join(text.split()).replace("$", "").replace(",", "")
     try:
         value = -Decimal(text[1:-1]) if text.startswith("(") else Decimal(text)
     except InvalidOperation as error:
@@ -74,6 +75,9 @@ def parse_document(body):
         if not identifier or identifier in contexts:
             raise ValueError("Duplicate or missing context ID")
         entity = one_text(element, "xbrli:identifier")
+        identifiers = list(element.iter("xbrli:identifier"))
+        if identifiers[0].get("scheme") != "http://www.sec.gov/CIK" or not re.fullmatch(r"\d{1,10}", entity):
+            raise ValueError("SEC CIK identifier scheme required")
         starts, ends = list(element.iter("xbrli:startdate")), list(element.iter("xbrli:enddate"))
         instants = list(element.iter("xbrli:instant"))
         contexts[identifier] = dict(entity=entity,

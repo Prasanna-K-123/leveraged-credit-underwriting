@@ -1,0 +1,2086 @@
+{
+  "cik": "0000815097",
+  "cutoff": "2026-10-14",
+  "kind": "real_SEC_exact_period_and_independent_table_reconciliation",
+  "original_capture_status": {
+    "captures": [
+      {
+        "label": "annual_2025",
+        "manifest": {
+          "accession": "0000815097-26-000007",
+          "as_of": "2026-10-14",
+          "captured_at_utc": "2026-10-14T03:28:27+00:00",
+          "cik": "0000815097",
+          "filed_on": "2026-01-27",
+          "form": "10-K",
+          "kind": "raw_SEC_byte_capture_not_asof_history",
+          "report_end": "2025-11-30",
+          "schema_version": 1,
+          "sources": [
+            {
+              "bytes": 162631,
+              "filename": "CIK0000815097_submissions.json",
+              "kind": "submissions",
+              "sha256": "f82d9bc721785d7e2ed4a11e4d54d6ffda7148c37bd8c42f23065955843002f0",
+              "url": "https://data.sec.gov/submissions/CIK0000815097.json"
+            },
+            {
+              "bytes": 2771212,
+              "filename": "CIK0000815097_companyfacts.json",
+              "kind": "companyfacts",
+              "sha256": "c207466469f69d3af50817c174fb9dc501bb65e4d2f64fdd51f2b3a3b9f3e5c9",
+              "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000815097.json"
+            },
+            {
+              "bytes": 2101825,
+              "filename": "10K_2025-11-30_000081509726000007.html",
+              "kind": "filing_html",
+              "sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+              "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm"
+            }
+          ]
+        }
+      },
+      {
+        "label": "q1_2026",
+        "manifest": {
+          "accession": "0000815097-26-000037",
+          "as_of": "2026-10-14",
+          "captured_at_utc": "2026-10-14T03:28:28+00:00",
+          "cik": "0000815097",
+          "filed_on": "2026-03-27",
+          "form": "10-Q",
+          "kind": "raw_SEC_byte_capture_not_asof_history",
+          "report_end": "2026-02-28",
+          "schema_version": 1,
+          "sources": [
+            {
+              "bytes": 162631,
+              "filename": "CIK0000815097_submissions.json",
+              "kind": "submissions",
+              "sha256": "f82d9bc721785d7e2ed4a11e4d54d6ffda7148c37bd8c42f23065955843002f0",
+              "url": "https://data.sec.gov/submissions/CIK0000815097.json"
+            },
+            {
+              "bytes": 2771212,
+              "filename": "CIK0000815097_companyfacts.json",
+              "kind": "companyfacts",
+              "sha256": "c207466469f69d3af50817c174fb9dc501bb65e4d2f64fdd51f2b3a3b9f3e5c9",
+              "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000815097.json"
+            },
+            {
+              "bytes": 921627,
+              "filename": "10Q_2026-02-28_000081509726000037.html",
+              "kind": "filing_html",
+              "sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+              "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm"
+            }
+          ]
+        }
+      },
+      {
+        "label": "q3_2026",
+        "manifest": {
+          "accession": "0000815097-26-000107",
+          "as_of": "2026-10-14",
+          "captured_at_utc": "2026-10-14T03:28:29+00:00",
+          "cik": "0000815097",
+          "filed_on": "2026-09-29",
+          "form": "10-Q",
+          "kind": "raw_SEC_byte_capture_not_asof_history",
+          "report_end": "2026-08-31",
+          "schema_version": 1,
+          "sources": [
+            {
+              "bytes": 162631,
+              "filename": "CIK0000815097_submissions.json",
+              "kind": "submissions",
+              "sha256": "f82d9bc721785d7e2ed4a11e4d54d6ffda7148c37bd8c42f23065955843002f0",
+              "url": "https://data.sec.gov/submissions/CIK0000815097.json"
+            },
+            {
+              "bytes": 2771212,
+              "filename": "CIK0000815097_companyfacts.json",
+              "kind": "companyfacts",
+              "sha256": "c207466469f69d3af50817c174fb9dc501bb65e4d2f64fdd51f2b3a3b9f3e5c9",
+              "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000815097.json"
+            },
+            {
+              "bytes": 1201109,
+              "filename": "10Q_2026-08-31_000081509726000107.html",
+              "kind": "filing_html",
+              "sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+              "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm"
+            }
+          ]
+        }
+      },
+      {
+        "label": "q1_2025_original",
+        "manifest": {
+          "accession": "0000815097-25-000025",
+          "as_of": "2026-10-14",
+          "captured_at_utc": "2026-10-14T03:28:29+00:00",
+          "cik": "0000815097",
+          "filed_on": "2025-03-25",
+          "form": "10-Q",
+          "kind": "raw_SEC_byte_capture_not_asof_history",
+          "report_end": "2025-02-28",
+          "schema_version": 1,
+          "sources": [
+            {
+              "bytes": 162631,
+              "filename": "CIK0000815097_submissions.json",
+              "kind": "submissions",
+              "sha256": "f82d9bc721785d7e2ed4a11e4d54d6ffda7148c37bd8c42f23065955843002f0",
+              "url": "https://data.sec.gov/submissions/CIK0000815097.json"
+            },
+            {
+              "bytes": 2771212,
+              "filename": "CIK0000815097_companyfacts.json",
+              "kind": "companyfacts",
+              "sha256": "c207466469f69d3af50817c174fb9dc501bb65e4d2f64fdd51f2b3a3b9f3e5c9",
+              "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000815097.json"
+            },
+            {
+              "bytes": 919164,
+              "filename": "10Q_2025-02-28_000081509725000025.html",
+              "kind": "filing_html",
+              "sha256": "194c6d1658f262abd548e091d2a089469bd0354354462198cd57ab568c41566c",
+              "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509725000025/ccl-20250228.htm"
+            }
+          ]
+        }
+      },
+      {
+        "label": "q3_2025_original",
+        "manifest": {
+          "accession": "0000815097-25-000084",
+          "as_of": "2026-10-14",
+          "captured_at_utc": "2026-10-14T03:28:30+00:00",
+          "cik": "0000815097",
+          "filed_on": "2025-09-29",
+          "form": "10-Q",
+          "kind": "raw_SEC_byte_capture_not_asof_history",
+          "report_end": "2025-08-31",
+          "schema_version": 1,
+          "sources": [
+            {
+              "bytes": 162631,
+              "filename": "CIK0000815097_submissions.json",
+              "kind": "submissions",
+              "sha256": "f82d9bc721785d7e2ed4a11e4d54d6ffda7148c37bd8c42f23065955843002f0",
+              "url": "https://data.sec.gov/submissions/CIK0000815097.json"
+            },
+            {
+              "bytes": 2771212,
+              "filename": "CIK0000815097_companyfacts.json",
+              "kind": "companyfacts",
+              "sha256": "c207466469f69d3af50817c174fb9dc501bb65e4d2f64fdd51f2b3a3b9f3e5c9",
+              "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000815097.json"
+            },
+            {
+              "bytes": 1146779,
+              "filename": "10Q_2025-08-31_000081509725000084.html",
+              "kind": "filing_html",
+              "sha256": "ea28b4e1b5467f5169931fd51f1fcca9194ecbc5aba7f9f5d380725aad29404e",
+              "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509725000084/ccl-20250831.htm"
+            }
+          ]
+        }
+      }
+    ],
+    "cik": "0000815097",
+    "completed_at_utc": "2026-10-14T03:28:30.654129+00:00",
+    "cutoff": "2026-10-14",
+    "discovery": {
+      "bytes": 162631,
+      "sha256": "f82d9bc721785d7e2ed4a11e4d54d6ffda7148c37bd8c42f23065955843002f0",
+      "url": "https://data.sec.gov/submissions/CIK0000815097.json"
+    },
+    "resolved_targets": [
+      {
+        "accession": "0000815097-26-000007",
+        "filed_on": "2026-01-27",
+        "form": "10-K",
+        "label": "annual_2025",
+        "report_end": "2025-11-30"
+      },
+      {
+        "accession": "0000815097-26-000037",
+        "filed_on": "2026-03-27",
+        "form": "10-Q",
+        "label": "q1_2026",
+        "report_end": "2026-02-28"
+      },
+      {
+        "accession": "0000815097-26-000107",
+        "filed_on": "2026-09-29",
+        "form": "10-Q",
+        "label": "q3_2026",
+        "report_end": "2026-08-31"
+      },
+      {
+        "accession": "0000815097-25-000025",
+        "filed_on": "2025-03-25",
+        "form": "10-Q",
+        "label": "q1_2025_original",
+        "report_end": "2025-02-28"
+      },
+      {
+        "accession": "0000815097-25-000084",
+        "filed_on": "2025-09-29",
+        "form": "10-Q",
+        "label": "q3_2025_original",
+        "report_end": "2025-08-31"
+      }
+    ],
+    "schema_version": 1,
+    "scope": "Five verified captures; financial/context reconciliation is not performed here",
+    "source_base_commit": "606ea14054443873d432c259548e100bda6f20af",
+    "started_at_utc": "2026-10-14T03:28:27.064641+00:00",
+    "status": "PASS_ORIGINAL_BYTE_CAPTURE_ONLY"
+  },
+  "results": {
+    "q1_2026": {
+      "balance_evidence": [
+        {
+          "accession": "0000815097-26-000037",
+          "agreeing_inline_occurrences": 1,
+          "context_id": "c-13",
+          "end": "2026-02-28",
+          "filed": "2026-03-27",
+          "form": "10-Q",
+          "metric": "cash",
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "value_usd_millions": 1424.0,
+          "xbrl_tag": "CashAndCashEquivalentsAtCarryingValue"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "agreeing_inline_occurrences": 1,
+          "context_id": "c-13",
+          "end": "2026-02-28",
+          "filed": "2026-03-27",
+          "form": "10-Q",
+          "metric": "debt_current",
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "value_usd_millions": 1502.0,
+          "xbrl_tag": "LongTermDebtCurrent"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "agreeing_inline_occurrences": 2,
+          "context_id": "c-13",
+          "end": "2026-02-28",
+          "filed": "2026-03-27",
+          "form": "10-Q",
+          "metric": "debt_noncurrent",
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "value_usd_millions": 23788.0,
+          "xbrl_tag": "LongTermDebtNoncurrent"
+        }
+      ],
+      "balance_sheet": {
+        "cash": 1424.0,
+        "debt_current": 1502.0,
+        "debt_noncurrent": 23788.0,
+        "period_end": "2026-02-28"
+      },
+      "covenant_liquidity_context": {
+        "covenant_calculation_warning": "Reported agreement definitions differ from simple public-data proxies; do not claim covenant headroom from proxy ratios.",
+        "maximum_debt_to_capital_pct": 65.0,
+        "minimum_interest_coverage_ratio": 3.0,
+        "minimum_liquidity_millions": 1500.0,
+        "secured_collateral_book_value_millions": 22500.0,
+        "ship_collateral_book_value_millions": 20800.0,
+        "undrawn_revolver_millions": 4500.0
+      },
+      "current_credit_metrics": {
+        "cash": 1424.0,
+        "cash_plus_undrawn_revolver": 5924.0,
+        "collateral_book_value_to_secured_debt": 7.262750161394448,
+        "ebitda_interest_coverage_proxy": 5.842438638163104,
+        "fcf_to_gross_debt": 0.11482848792493462,
+        "gross_debt": 26004.0,
+        "gross_leverage": 3.52405474996612,
+        "net_debt": 24580.0,
+        "net_leverage": 3.3310746713646835,
+        "proxy_vs_minimum_coverage_multiple": 1.9474795460543681,
+        "secured_collateral_book_value": 22500.0,
+        "secured_debt": 3098.0,
+        "ttm_ebitda_proxy": 7379.0,
+        "ttm_free_cash_flow": 2986.0,
+        "ttm_interest_expense": 1263.0,
+        "ttm_revenue": 26977.0
+      },
+      "debt_capacity": [
+        {
+          "constraint": "gross_leverage",
+          "debt_capacity": 22137.0,
+          "headroom_vs_current_debt": -3867.0,
+          "implied_interest_rate_proxy": 0.048569450853714814,
+          "threshold": 3.0
+        },
+        {
+          "constraint": "gross_leverage",
+          "debt_capacity": 29516.0,
+          "headroom_vs_current_debt": 3512.0,
+          "implied_interest_rate_proxy": 0.048569450853714814,
+          "threshold": 4.0
+        },
+        {
+          "constraint": "gross_leverage",
+          "debt_capacity": 36895.0,
+          "headroom_vs_current_debt": 10891.0,
+          "implied_interest_rate_proxy": 0.048569450853714814,
+          "threshold": 5.0
+        },
+        {
+          "constraint": "gross_leverage",
+          "debt_capacity": 44274.0,
+          "headroom_vs_current_debt": 18270.0,
+          "implied_interest_rate_proxy": 0.048569450853714814,
+          "threshold": 6.0
+        },
+        {
+          "constraint": "ebitda_interest_coverage",
+          "debt_capacity": 75963.38717339667,
+          "headroom_vs_current_debt": 49959.387173396666,
+          "implied_interest_rate_proxy": 0.048569450853714814,
+          "threshold": 2.0
+        },
+        {
+          "constraint": "ebitda_interest_coverage",
+          "debt_capacity": 60770.70973871734,
+          "headroom_vs_current_debt": 34766.70973871734,
+          "implied_interest_rate_proxy": 0.048569450853714814,
+          "threshold": 2.5
+        },
+        {
+          "constraint": "ebitda_interest_coverage",
+          "debt_capacity": 50642.25811559778,
+          "headroom_vs_current_debt": 24638.258115597782,
+          "implied_interest_rate_proxy": 0.048569450853714814,
+          "threshold": 3.0
+        },
+        {
+          "constraint": "ebitda_interest_coverage",
+          "debt_capacity": 43407.64981336953,
+          "headroom_vs_current_debt": 17403.649813369528,
+          "implied_interest_rate_proxy": 0.048569450853714814,
+          "threshold": 3.5
+        }
+      ],
+      "debt_stack": {
+        "current_portion_long_term_debt": 1502.0,
+        "gross_debt": 26004.0,
+        "long_term_debt": 23788.0,
+        "net_debt_reported": 25290.0,
+        "secured_subsidiary_guaranteed": 3098.0,
+        "unsecured_no_subsidiary_guarantee": 1262.0,
+        "unsecured_subsidiary_guaranteed": 21644.0
+      },
+      "fiscal_quarter": 1,
+      "maturities": {
+        "2027": 2535.0,
+        "2028": 3978.0,
+        "2029": 4168.0,
+        "2030": 2913.0,
+        "Remainder of 2026": 1055.0,
+        "Thereafter": 11354.0,
+        "Total": 26004.0
+      },
+      "maturity_coverage": [
+        {
+          "cumulative_principal_due": 1055.0,
+          "liquidity_minus_cumulative_maturities": 4869.0,
+          "liquidity_sources": 5924.0,
+          "maturity_bucket": "Remainder of 2026",
+          "principal_due": 1055.0
+        },
+        {
+          "cumulative_principal_due": 3590.0,
+          "liquidity_minus_cumulative_maturities": 2334.0,
+          "liquidity_sources": 5924.0,
+          "maturity_bucket": "2027",
+          "principal_due": 2535.0
+        },
+        {
+          "cumulative_principal_due": 7568.0,
+          "liquidity_minus_cumulative_maturities": -1644.0,
+          "liquidity_sources": 5924.0,
+          "maturity_bucket": "2028",
+          "principal_due": 3978.0
+        },
+        {
+          "cumulative_principal_due": 11736.0,
+          "liquidity_minus_cumulative_maturities": -5812.0,
+          "liquidity_sources": 5924.0,
+          "maturity_bucket": "2029",
+          "principal_due": 4168.0
+        },
+        {
+          "cumulative_principal_due": 14649.0,
+          "liquidity_minus_cumulative_maturities": -8725.0,
+          "liquidity_sources": 5924.0,
+          "maturity_bucket": "2030",
+          "principal_due": 2913.0
+        },
+        {
+          "cumulative_principal_due": 26003.0,
+          "liquidity_minus_cumulative_maturities": -20079.0,
+          "liquidity_sources": 5924.0,
+          "maturity_bucket": "Thereafter",
+          "principal_due": 11354.0
+        }
+      ],
+      "metrics": {
+        "capital_expenditures": 3570.0,
+        "cash_from_operations": 6556.0,
+        "depreciation_amortization": 2832.0,
+        "ebitda_interest_coverage": 5.842438638163104,
+        "ebitda_margin": 0.2735293027393706,
+        "ebitda_proxy": 7379.0,
+        "fcf_margin": 0.1106868814175038,
+        "free_cash_flow": 2986.0,
+        "interest_expense": 1263.0,
+        "operating_income": 4547.0,
+        "revenue": 26977.0
+      },
+      "original_comparisons": [
+        {
+          "current_comparative": 5810.0,
+          "end": "2025-02-28",
+          "metric": "revenue",
+          "original_accession": "0000815097-25-000025",
+          "original_context_id": "c-1",
+          "original_source_sha256": "194c6d1658f262abd548e091d2a089469bd0354354462198cd57ab568c41566c",
+          "original_value": 5810.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 543.0,
+          "end": "2025-02-28",
+          "metric": "operating_income",
+          "original_accession": "0000815097-25-000025",
+          "original_context_id": "c-1",
+          "original_source_sha256": "194c6d1658f262abd548e091d2a089469bd0354354462198cd57ab568c41566c",
+          "original_value": 543.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 654.0,
+          "end": "2025-02-28",
+          "metric": "depreciation_amortization",
+          "original_accession": "0000815097-25-000025",
+          "original_context_id": "c-1",
+          "original_source_sha256": "194c6d1658f262abd548e091d2a089469bd0354354462198cd57ab568c41566c",
+          "original_value": 654.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 377.0,
+          "end": "2025-02-28",
+          "metric": "interest_expense",
+          "original_accession": "0000815097-25-000025",
+          "original_context_id": "c-1",
+          "original_source_sha256": "194c6d1658f262abd548e091d2a089469bd0354354462198cd57ab568c41566c",
+          "original_value": 377.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 925.0,
+          "end": "2025-02-28",
+          "metric": "cash_from_operations",
+          "original_accession": "0000815097-25-000025",
+          "original_context_id": "c-1",
+          "original_source_sha256": "194c6d1658f262abd548e091d2a089469bd0354354462198cd57ab568c41566c",
+          "original_value": 925.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 607.0,
+          "end": "2025-02-28",
+          "metric": "capital_expenditures",
+          "original_accession": "0000815097-25-000025",
+          "original_context_id": "c-1",
+          "original_source_sha256": "194c6d1658f262abd548e091d2a089469bd0354354462198cd57ab568c41566c",
+          "original_value": 607.0,
+          "start": "2024-12-01"
+        }
+      ],
+      "reconciliation_gaps_usd_millions": {
+        "capital_stack": 0.0,
+        "carrying_value": 0.0,
+        "current_noncurrent": 0.0,
+        "maturity_total": 0.0
+      },
+      "recovery": [
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 24225.11,
+          "enterprise_value": 22801.11,
+          "equity_residual": 0.0,
+          "ev_ebitda_multiple": 3.0,
+          "scenario": "base",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 0.9761185547957864,
+          "unsecured_no_guarantee_recovery_pct": 0.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 31825.480000000003,
+          "enterprise_value": 30401.480000000003,
+          "equity_residual": 5821.480000000003,
+          "ev_ebitda_multiple": 4.0,
+          "scenario": "base",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 1.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 39425.850000000006,
+          "enterprise_value": 38001.850000000006,
+          "equity_residual": 13421.850000000006,
+          "ev_ebitda_multiple": 5.0,
+          "scenario": "base",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 1.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 47026.22,
+          "enterprise_value": 45602.22,
+          "equity_residual": 21022.22,
+          "ev_ebitda_multiple": 6.0,
+          "scenario": "base",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 1.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 54626.590000000004,
+          "enterprise_value": 53202.590000000004,
+          "equity_residual": 28622.590000000004,
+          "ev_ebitda_multiple": 7.0,
+          "scenario": "base",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 1.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 19162.163,
+          "enterprise_value": 17738.163,
+          "equity_residual": 0.0,
+          "ev_ebitda_multiple": 3.0,
+          "scenario": "downside",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 0.7421993624099058,
+          "unsecured_no_guarantee_recovery_pct": 0.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 25074.884000000002,
+          "enterprise_value": 23650.884000000002,
+          "equity_residual": 0.0,
+          "ev_ebitda_multiple": 4.0,
+          "scenario": "downside",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 0.2637749603803501
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 30987.605000000003,
+          "enterprise_value": 29563.605000000003,
+          "equity_residual": 4983.605000000003,
+          "ev_ebitda_multiple": 5.0,
+          "scenario": "downside",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 1.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 36900.326,
+          "enterprise_value": 35476.326,
+          "equity_residual": 10896.326000000001,
+          "ev_ebitda_multiple": 6.0,
+          "scenario": "downside",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 1.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 42813.047000000006,
+          "enterprise_value": 41389.047000000006,
+          "equity_residual": 16809.047000000006,
+          "ev_ebitda_multiple": 7.0,
+          "scenario": "downside",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 1.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 15248.912000000004,
+          "enterprise_value": 13824.912000000004,
+          "equity_residual": 0.0,
+          "ev_ebitda_multiple": 3.0,
+          "scenario": "severe",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 0.5613986324154502,
+          "unsecured_no_guarantee_recovery_pct": 0.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 19857.216000000004,
+          "enterprise_value": 18433.216000000004,
+          "equity_residual": 0.0,
+          "ev_ebitda_multiple": 4.0,
+          "scenario": "severe",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 0.7743123267418224,
+          "unsecured_no_guarantee_recovery_pct": 0.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 24465.520000000004,
+          "enterprise_value": 23041.520000000004,
+          "equity_residual": 0.0,
+          "ev_ebitda_multiple": 5.0,
+          "scenario": "severe",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 0.9872260210681946,
+          "unsecured_no_guarantee_recovery_pct": 0.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 29073.824000000008,
+          "enterprise_value": 27649.824000000008,
+          "equity_residual": 3069.824000000008,
+          "ev_ebitda_multiple": 6.0,
+          "scenario": "severe",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 1.0
+        },
+        {
+          "cash_added_to_waterfall": 1424.0,
+          "distributable_value": 33682.12800000001,
+          "enterprise_value": 32258.128000000008,
+          "equity_residual": 7678.1280000000115,
+          "ev_ebitda_multiple": 7.0,
+          "scenario": "severe",
+          "secured_recovery_pct": 1.0,
+          "unsecured_guaranteed_recovery_pct": 1.0,
+          "unsecured_no_guarantee_recovery_pct": 1.0
+        }
+      ],
+      "report_end": "2026-02-28",
+      "scenarios": [
+        {
+          "ebitda_interest_coverage_proxy": 6.017711797307998,
+          "ebitda_margin": 0.2735293027393706,
+          "ebitda_margin_delta_pp": 0.0,
+          "ebitda_proxy": 7600.370000000001,
+          "fcf_margin_delta_pp": 0.0,
+          "free_cash_flow": 3075.58,
+          "gross_leverage": 3.4214123786078834,
+          "interest_cost_multiplier": 1.0,
+          "interest_expense": 1263.0,
+          "post_fcf_gross_debt": 22928.42,
+          "post_fcf_gross_leverage": 3.01675050030459,
+          "revenue": 27786.31,
+          "revenue_multiplier": 1.03,
+          "scenario": "base"
+        },
+        {
+          "ebitda_interest_coverage_proxy": 4.255899373785359,
+          "ebitda_margin": 0.2435293027393706,
+          "ebitda_margin_delta_pp": -3.0,
+          "ebitda_proxy": 5912.7210000000005,
+          "fcf_margin_delta_pp": -5.0,
+          "free_cash_flow": 1473.4349999999997,
+          "gross_leverage": 4.397975145453336,
+          "interest_cost_multiplier": 1.1,
+          "interest_expense": 1389.3000000000002,
+          "post_fcf_gross_debt": 24530.565,
+          "post_fcf_gross_leverage": 4.148777694736483,
+          "revenue": 24279.3,
+          "revenue_multiplier": 0.9,
+          "scenario": "downside"
+        },
+        {
+          "ebitda_interest_coverage_proxy": 2.91895740300871,
+          "ebitda_margin": 0.2135293027393706,
+          "ebitda_margin_delta_pp": -6.0,
+          "ebitda_proxy": 4608.304000000001,
+          "fcf_margin_delta_pp": -10.0,
+          "free_cash_flow": 230.63999999999984,
+          "gross_leverage": 5.64285689485763,
+          "interest_cost_multiplier": 1.25,
+          "interest_expense": 1578.75,
+          "post_fcf_gross_debt": 25773.36,
+          "post_fcf_gross_leverage": 5.592808113353632,
+          "revenue": 21581.600000000002,
+          "revenue_multiplier": 0.8,
+          "scenario": "severe"
+        }
+      ],
+      "underwriting_replay": {
+        "limitations": "Simplified consolidated sensitivity; not covenant or legal recovery validation",
+        "status": "COMPLETE_UNCHANGED_MODEL_ARITHMETIC"
+      },
+      "verified_sources": [
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 26622000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "total revenues",
+          "fiscal_quarter": 1,
+          "form": "10-K",
+          "metric": "revenue",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 26622000000.0,
+          "value_usd_millions": 26622.0,
+          "visible_signed_millions": 26622.0,
+          "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 6165000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 90,
+          "end": "2026-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "total revenues",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "revenue",
+          "selected_column": 0,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2025-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 6165000000.0,
+          "value_usd_millions": 6165.0,
+          "visible_signed_millions": 6165.0,
+          "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 5810000000.0
+          },
+          "context_id": "c-12",
+          "duration_days_inclusive": 90,
+          "end": "2025-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "total revenues",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "revenue",
+          "selected_column": 1,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2024-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 5810000000.0,
+          "value_usd_millions": 5810.0,
+          "visible_signed_millions": 5810.0,
+          "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 4483000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "operating income",
+          "fiscal_quarter": 1,
+          "form": "10-K",
+          "metric": "operating_income",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 4483000000.0,
+          "value_usd_millions": 4483.0,
+          "visible_signed_millions": 4483.0,
+          "xbrl_tag": "OperatingIncomeLoss"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 607000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 90,
+          "end": "2026-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "operating income",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "operating_income",
+          "selected_column": 0,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2025-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 607000000.0,
+          "value_usd_millions": 607.0,
+          "visible_signed_millions": 607.0,
+          "xbrl_tag": "OperatingIncomeLoss"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 543000000.0
+          },
+          "context_id": "c-12",
+          "duration_days_inclusive": 90,
+          "end": "2025-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "operating income",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "operating_income",
+          "selected_column": 1,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2024-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 543000000.0,
+          "value_usd_millions": 543.0,
+          "visible_signed_millions": 543.0,
+          "xbrl_tag": "OperatingIncomeLoss"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 2790000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "depreciation and amortization",
+          "fiscal_quarter": 1,
+          "form": "10-K",
+          "metric": "depreciation_amortization",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 2790000000.0,
+          "value_usd_millions": 2790.0,
+          "visible_signed_millions": 2790.0,
+          "xbrl_tag": "DepreciationAndAmortization"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 696000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 90,
+          "end": "2026-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "depreciation and amortization",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "depreciation_amortization",
+          "selected_column": 0,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2025-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 696000000.0,
+          "value_usd_millions": 696.0,
+          "visible_signed_millions": 696.0,
+          "xbrl_tag": "DepreciationAndAmortization"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 654000000.0
+          },
+          "context_id": "c-12",
+          "duration_days_inclusive": 90,
+          "end": "2025-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "depreciation and amortization",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "depreciation_amortization",
+          "selected_column": 1,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2024-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 654000000.0,
+          "value_usd_millions": 654.0,
+          "visible_signed_millions": 654.0,
+          "xbrl_tag": "DepreciationAndAmortization"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 1349000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "interest expense, net of capitalized interest",
+          "fiscal_quarter": 1,
+          "form": "10-K",
+          "metric": "interest_expense",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 1349000000.0,
+          "value_usd_millions": 1349.0,
+          "visible_signed_millions": -1349.0,
+          "xbrl_tag": "InterestExpenseNonoperating"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 291000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 90,
+          "end": "2026-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "interest expense, net of capitalized interest",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "interest_expense",
+          "selected_column": 0,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2025-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 291000000.0,
+          "value_usd_millions": 291.0,
+          "visible_signed_millions": -291.0,
+          "xbrl_tag": "InterestExpenseNonoperating"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 377000000.0
+          },
+          "context_id": "c-12",
+          "duration_days_inclusive": 90,
+          "end": "2025-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "interest expense, net of capitalized interest",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "interest_expense",
+          "selected_column": 1,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2024-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 377000000.0,
+          "value_usd_millions": 377.0,
+          "visible_signed_millions": -377.0,
+          "xbrl_tag": "InterestExpenseNonoperating"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 6218000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "net cash provided by operating activities",
+          "fiscal_quarter": 1,
+          "form": "10-K",
+          "metric": "cash_from_operations",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 6218000000.0,
+          "value_usd_millions": 6218.0,
+          "visible_signed_millions": 6218.0,
+          "xbrl_tag": "NetCashProvidedByUsedInOperatingActivities"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 1263000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 90,
+          "end": "2026-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "net cash provided by operating activities",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "cash_from_operations",
+          "selected_column": 0,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2025-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 1263000000.0,
+          "value_usd_millions": 1263.0,
+          "visible_signed_millions": 1263.0,
+          "xbrl_tag": "NetCashProvidedByUsedInOperatingActivities"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 925000000.0
+          },
+          "context_id": "c-12",
+          "duration_days_inclusive": 90,
+          "end": "2025-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "net cash provided by operating activities",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "cash_from_operations",
+          "selected_column": 1,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2024-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 925000000.0,
+          "value_usd_millions": 925.0,
+          "visible_signed_millions": 925.0,
+          "xbrl_tag": "NetCashProvidedByUsedInOperatingActivities"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 3611000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "purchases of property and equipment",
+          "fiscal_quarter": 1,
+          "form": "10-K",
+          "metric": "capital_expenditures",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 3611000000.0,
+          "value_usd_millions": 3611.0,
+          "visible_signed_millions": -3611.0,
+          "xbrl_tag": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 566000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 90,
+          "end": "2026-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "purchases of property and equipment",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "capital_expenditures",
+          "selected_column": 0,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2025-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 566000000.0,
+          "value_usd_millions": 566.0,
+          "visible_signed_millions": -566.0,
+          "xbrl_tag": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "accession": "0000815097-26-000037",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 607000000.0
+          },
+          "context_id": "c-12",
+          "duration_days_inclusive": 90,
+          "end": "2025-02-28",
+          "filed": "2026-03-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "purchases of property and equipment",
+          "fiscal_quarter": 1,
+          "form": "10-Q",
+          "metric": "capital_expenditures",
+          "selected_column": 1,
+          "source_sha256": "b03d6961c62ca57df101bf23910ed5779e57b73135d56aa48b405d6ab1d51397",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000037/ccl-20260228.htm",
+          "start": "2024-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 607000000.0,
+          "value_usd_millions": 607.0,
+          "visible_signed_millions": -607.0,
+          "xbrl_tag": "PaymentsToAcquirePropertyPlantAndEquipment"
+        }
+      ]
+    },
+    "q3_2026": {
+      "balance_evidence": [
+        {
+          "accession": "0000815097-26-000107",
+          "agreeing_inline_occurrences": 1,
+          "context_id": "c-14",
+          "end": "2026-08-31",
+          "filed": "2026-09-29",
+          "form": "10-Q",
+          "metric": "cash",
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "value_usd_millions": 1220.0,
+          "xbrl_tag": "CashAndCashEquivalentsAtCarryingValue"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "agreeing_inline_occurrences": 1,
+          "context_id": "c-14",
+          "end": "2026-08-31",
+          "filed": "2026-09-29",
+          "form": "10-Q",
+          "metric": "debt_current",
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "value_usd_millions": 2036.0,
+          "xbrl_tag": "LongTermDebtCurrent"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "agreeing_inline_occurrences": 2,
+          "context_id": "c-14",
+          "end": "2026-08-31",
+          "filed": "2026-09-29",
+          "form": "10-Q",
+          "metric": "debt_noncurrent",
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "value_usd_millions": 21876.0,
+          "xbrl_tag": "LongTermDebtNoncurrent"
+        }
+      ],
+      "balance_sheet": {
+        "cash": 1220.0,
+        "debt_current": 2036.0,
+        "debt_noncurrent": 21876.0,
+        "period_end": "2026-08-31"
+      },
+      "covenant_liquidity_context": null,
+      "debt_capacity": [
+        {
+          "constraint": "gross_leverage",
+          "debt_capacity": 21933.0,
+          "headroom_vs_current_debt": -2626.0,
+          "implied_interest_rate_proxy": 0.04792540412883261,
+          "threshold": 3.0
+        },
+        {
+          "constraint": "gross_leverage",
+          "debt_capacity": 29244.0,
+          "headroom_vs_current_debt": 4685.0,
+          "implied_interest_rate_proxy": 0.04792540412883261,
+          "threshold": 4.0
+        },
+        {
+          "constraint": "gross_leverage",
+          "debt_capacity": 36555.0,
+          "headroom_vs_current_debt": 11996.0,
+          "implied_interest_rate_proxy": 0.04792540412883261,
+          "threshold": 5.0
+        },
+        {
+          "constraint": "gross_leverage",
+          "debt_capacity": 43866.0,
+          "headroom_vs_current_debt": 19307.0,
+          "implied_interest_rate_proxy": 0.04792540412883261,
+          "threshold": 6.0
+        },
+        {
+          "constraint": "ebitda_interest_coverage",
+          "debt_capacity": 76274.78717077315,
+          "headroom_vs_current_debt": 51715.787170773154,
+          "implied_interest_rate_proxy": 0.04792540412883261,
+          "threshold": 2.0
+        },
+        {
+          "constraint": "ebitda_interest_coverage",
+          "debt_capacity": 61019.829736618514,
+          "headroom_vs_current_debt": 36460.829736618514,
+          "implied_interest_rate_proxy": 0.04792540412883261,
+          "threshold": 2.5
+        },
+        {
+          "constraint": "ebitda_interest_coverage",
+          "debt_capacity": 50849.85811384877,
+          "headroom_vs_current_debt": 26290.85811384877,
+          "implied_interest_rate_proxy": 0.04792540412883261,
+          "threshold": 3.0
+        },
+        {
+          "constraint": "ebitda_interest_coverage",
+          "debt_capacity": 43585.592669013226,
+          "headroom_vs_current_debt": 19026.592669013226,
+          "implied_interest_rate_proxy": 0.04792540412883261,
+          "threshold": 3.5
+        }
+      ],
+      "debt_evidence": [
+        {
+          "accession": "0000815097-26-000107",
+          "label": "total unsecured subsidiary guaranteed",
+          "metric": "unsecured_subsidiary_guaranteed",
+          "report_end": "2026-08-31",
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "value_usd_millions": 10953.0
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "label": "total unsecured (no subsidiary guarantee)",
+          "metric": "unsecured_no_subsidiary_guarantee",
+          "report_end": "2026-08-31",
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "value_usd_millions": 13606.0
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "label": "total debt",
+          "metric": "gross_debt",
+          "report_end": "2026-08-31",
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "value_usd_millions": 24559.0
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "label": "total debt, net of unamortized debt issuance costs and discounts",
+          "metric": "net_debt_reported",
+          "report_end": "2026-08-31",
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "value_usd_millions": 23912.0
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "label": "less: current portion of long-term debt",
+          "metric": "current_portion_long_term_debt",
+          "report_end": "2026-08-31",
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "value_usd_millions": 2036.0
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "label": "long-term debt",
+          "metric": "long_term_debt",
+          "report_end": "2026-08-31",
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "value_usd_millions": 21876.0
+        }
+      ],
+      "debt_stack": {
+        "current_portion_long_term_debt": 2036.0,
+        "gross_debt": 24559.0,
+        "long_term_debt": 21876.0,
+        "net_debt_reported": 23912.0,
+        "unsecured_no_subsidiary_guarantee": 13606.0,
+        "unsecured_subsidiary_guaranteed": 10953.0
+      },
+      "descriptive_credit_ratios": {
+        "gross_leverage": 3.3591847900424017,
+        "interest_coverage_proxy": 6.211554800339847,
+        "net_leverage": 3.1923129530843934
+      },
+      "fiscal_quarter": 3,
+      "maturities": {
+        "2027": 2517.0,
+        "2028": 3961.0,
+        "2029": 3631.0,
+        "2030": 2885.0,
+        "Remainder of 2026": 301.0,
+        "Thereafter": 11264.0,
+        "Total": 24559.0
+      },
+      "maturity_coverage": null,
+      "metrics": {
+        "capital_expenditures": 3645.0,
+        "cash_from_operations": 6821.0,
+        "depreciation_amortization": 2898.0,
+        "ebitda_interest_coverage": 6.211554800339847,
+        "ebitda_margin": 0.26495850396839776,
+        "ebitda_proxy": 7311.0,
+        "fcf_margin": 0.11510165621715653,
+        "free_cash_flow": 3176.0,
+        "interest_expense": 1177.0,
+        "operating_income": 4413.0,
+        "revenue": 27593.0
+      },
+      "original_comparisons": [
+        {
+          "current_comparative": 20292.0,
+          "end": "2025-08-31",
+          "metric": "revenue",
+          "original_accession": "0000815097-25-000084",
+          "original_context_id": "c-1",
+          "original_source_sha256": "ea28b4e1b5467f5169931fd51f1fcca9194ecbc5aba7f9f5d380725aad29404e",
+          "original_value": 20292.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 3748.0,
+          "end": "2025-08-31",
+          "metric": "operating_income",
+          "original_accession": "0000815097-25-000084",
+          "original_context_id": "c-1",
+          "original_source_sha256": "ea28b4e1b5467f5169931fd51f1fcca9194ecbc5aba7f9f5d380725aad29404e",
+          "original_value": 3748.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 2064.0,
+          "end": "2025-08-31",
+          "metric": "depreciation_amortization",
+          "original_accession": "0000815097-25-000084",
+          "original_context_id": "c-1",
+          "original_source_sha256": "ea28b4e1b5467f5169931fd51f1fcca9194ecbc5aba7f9f5d380725aad29404e",
+          "original_value": 2064.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 1034.0,
+          "end": "2025-08-31",
+          "metric": "interest_expense",
+          "original_accession": "0000815097-25-000084",
+          "original_context_id": "c-1",
+          "original_source_sha256": "ea28b4e1b5467f5169931fd51f1fcca9194ecbc5aba7f9f5d380725aad29404e",
+          "original_value": 1034.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 4700.0,
+          "end": "2025-08-31",
+          "metric": "cash_from_operations",
+          "original_accession": "0000815097-25-000084",
+          "original_context_id": "c-1",
+          "original_source_sha256": "ea28b4e1b5467f5169931fd51f1fcca9194ecbc5aba7f9f5d380725aad29404e",
+          "original_value": 4700.0,
+          "start": "2024-12-01"
+        },
+        {
+          "current_comparative": 2105.0,
+          "end": "2025-08-31",
+          "metric": "capital_expenditures",
+          "original_accession": "0000815097-25-000084",
+          "original_context_id": "c-1",
+          "original_source_sha256": "ea28b4e1b5467f5169931fd51f1fcca9194ecbc5aba7f9f5d380725aad29404e",
+          "original_value": 2105.0,
+          "start": "2024-12-01"
+        }
+      ],
+      "reconciliation_gaps_usd_millions": {
+        "carrying_value": 0.0,
+        "current_noncurrent": 0.0,
+        "maturity_total": 0.0,
+        "reported_unsecured_classes": 0.0
+      },
+      "recovery": null,
+      "report_end": "2026-08-31",
+      "scenarios": [
+        {
+          "ebitda_interest_coverage_proxy": 6.397901444350042,
+          "ebitda_margin": 0.26495850396839776,
+          "ebitda_margin_delta_pp": 0.0,
+          "ebitda_proxy": 7530.33,
+          "fcf_margin_delta_pp": 0.0,
+          "free_cash_flow": 3271.28,
+          "gross_leverage": 3.2613444563518463,
+          "interest_cost_multiplier": 1.0,
+          "interest_expense": 1177.0,
+          "post_fcf_gross_debt": 21287.72,
+          "post_fcf_gross_leverage": 2.826930559484113,
+          "revenue": 28420.79,
+          "revenue_multiplier": 1.03,
+          "scenario": "base"
+        },
+        {
+          "ebitda_interest_coverage_proxy": 4.506749826214567,
+          "ebitda_margin": 0.23495850396839776,
+          "ebitda_margin_delta_pp": -3.0,
+          "ebitda_proxy": 5834.889,
+          "fcf_margin_delta_pp": -5.0,
+          "free_cash_flow": 1616.715,
+          "gross_leverage": 4.208991807727619,
+          "interest_cost_multiplier": 1.1,
+          "interest_expense": 1294.7,
+          "post_fcf_gross_debt": 22942.285,
+          "post_fcf_gross_leverage": 3.9319145574148884,
+          "revenue": 24833.7,
+          "revenue_multiplier": 0.9,
+          "scenario": "downside"
+        },
+        {
+          "ebitda_interest_coverage_proxy": 3.075164655904843,
+          "ebitda_margin": 0.20495850396839776,
+          "ebitda_margin_delta_pp": -6.0,
+          "ebitda_proxy": 4524.336,
+          "fcf_margin_delta_pp": -10.0,
+          "free_cash_flow": 333.3599999999999,
+          "gross_leverage": 5.428199850762631,
+          "interest_cost_multiplier": 1.25,
+          "interest_expense": 1471.25,
+          "post_fcf_gross_debt": 24225.64,
+          "post_fcf_gross_leverage": 5.354518320478408,
+          "revenue": 22074.4,
+          "revenue_multiplier": 0.8,
+          "scenario": "severe"
+        }
+      ],
+      "underwriting_replay": {
+        "original_parser_error": "Debt-table row not found or not numeric: Total Secured Subsidiary Guaranteed",
+        "reason": "The Q3 filing reclassifies debt/guarantees and has no reported secured subtotal. Original three-class collateral/recovery model is unsupported; no zero, old-quarter value or legal inference is substituted.",
+        "status": "PARTIAL_WITH_RECOVERY_REFUSED"
+      },
+      "verified_sources": [
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 26622000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "total revenues",
+          "fiscal_quarter": 3,
+          "form": "10-K",
+          "metric": "revenue",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 26622000000.0,
+          "value_usd_millions": 26622.0,
+          "visible_signed_millions": 26622.0,
+          "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 21263000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 274,
+          "end": "2026-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "total revenues",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "revenue",
+          "selected_column": 2,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2025-12-01",
+          "table_columns": 4,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 21263000000.0,
+          "value_usd_millions": 21263.0,
+          "visible_signed_millions": 21263.0,
+          "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 20292000000.0
+          },
+          "context_id": "c-13",
+          "duration_days_inclusive": 274,
+          "end": "2025-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "total revenues",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "revenue",
+          "selected_column": 3,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2024-12-01",
+          "table_columns": 4,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 20292000000.0,
+          "value_usd_millions": 20292.0,
+          "visible_signed_millions": 20292.0,
+          "xbrl_tag": "RevenueFromContractWithCustomerExcludingAssessedTax"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 4483000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "operating income",
+          "fiscal_quarter": 3,
+          "form": "10-K",
+          "metric": "operating_income",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 4483000000.0,
+          "value_usd_millions": 4483.0,
+          "visible_signed_millions": 4483.0,
+          "xbrl_tag": "OperatingIncomeLoss"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 3678000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 274,
+          "end": "2026-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "operating income",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "operating_income",
+          "selected_column": 2,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2025-12-01",
+          "table_columns": 4,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 3678000000.0,
+          "value_usd_millions": 3678.0,
+          "visible_signed_millions": 3678.0,
+          "xbrl_tag": "OperatingIncomeLoss"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 3748000000.0
+          },
+          "context_id": "c-13",
+          "duration_days_inclusive": 274,
+          "end": "2025-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "operating income",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "operating_income",
+          "selected_column": 3,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2024-12-01",
+          "table_columns": 4,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 3748000000.0,
+          "value_usd_millions": 3748.0,
+          "visible_signed_millions": 3748.0,
+          "xbrl_tag": "OperatingIncomeLoss"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 2790000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "depreciation and amortization",
+          "fiscal_quarter": 3,
+          "form": "10-K",
+          "metric": "depreciation_amortization",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 2790000000.0,
+          "value_usd_millions": 2790.0,
+          "visible_signed_millions": 2790.0,
+          "xbrl_tag": "DepreciationAndAmortization"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 2172000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 274,
+          "end": "2026-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "depreciation and amortization",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "depreciation_amortization",
+          "selected_column": 0,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2025-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 2172000000.0,
+          "value_usd_millions": 2172.0,
+          "visible_signed_millions": 2172.0,
+          "xbrl_tag": "DepreciationAndAmortization"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 2064000000.0
+          },
+          "context_id": "c-13",
+          "duration_days_inclusive": 274,
+          "end": "2025-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "depreciation and amortization",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "depreciation_amortization",
+          "selected_column": 1,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2024-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 2064000000.0,
+          "value_usd_millions": 2064.0,
+          "visible_signed_millions": 2064.0,
+          "xbrl_tag": "DepreciationAndAmortization"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 1349000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "interest expense, net of capitalized interest",
+          "fiscal_quarter": 3,
+          "form": "10-K",
+          "metric": "interest_expense",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 1349000000.0,
+          "value_usd_millions": 1349.0,
+          "visible_signed_millions": -1349.0,
+          "xbrl_tag": "InterestExpenseNonoperating"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 862000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 274,
+          "end": "2026-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "interest expense, net of capitalized interest",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "interest_expense",
+          "selected_column": 2,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2025-12-01",
+          "table_columns": 4,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 862000000.0,
+          "value_usd_millions": 862.0,
+          "visible_signed_millions": -862.0,
+          "xbrl_tag": "InterestExpenseNonoperating"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 1034000000.0
+          },
+          "context_id": "c-13",
+          "duration_days_inclusive": 274,
+          "end": "2025-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "interest expense, net of capitalized interest",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "interest_expense",
+          "selected_column": 3,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2024-12-01",
+          "table_columns": 4,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 1034000000.0,
+          "value_usd_millions": 1034.0,
+          "visible_signed_millions": -1034.0,
+          "xbrl_tag": "InterestExpenseNonoperating"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 6218000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "net cash provided by operating activities",
+          "fiscal_quarter": 3,
+          "form": "10-K",
+          "metric": "cash_from_operations",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 6218000000.0,
+          "value_usd_millions": 6218.0,
+          "visible_signed_millions": 6218.0,
+          "xbrl_tag": "NetCashProvidedByUsedInOperatingActivities"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 5303000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 274,
+          "end": "2026-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "net cash provided by operating activities",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "cash_from_operations",
+          "selected_column": 0,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2025-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 5303000000.0,
+          "value_usd_millions": 5303.0,
+          "visible_signed_millions": 5303.0,
+          "xbrl_tag": "NetCashProvidedByUsedInOperatingActivities"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 4700000000.0
+          },
+          "context_id": "c-13",
+          "duration_days_inclusive": 274,
+          "end": "2025-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "net cash provided by operating activities",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "cash_from_operations",
+          "selected_column": 1,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2024-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 4700000000.0,
+          "value_usd_millions": 4700.0,
+          "visible_signed_millions": 4700.0,
+          "xbrl_tag": "NetCashProvidedByUsedInOperatingActivities"
+        },
+        {
+          "accession": "0000815097-26-000007",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 3611000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 365,
+          "end": "2025-11-30",
+          "filed": "2026-01-27",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "purchases of property and equipment",
+          "fiscal_quarter": 3,
+          "form": "10-K",
+          "metric": "capital_expenditures",
+          "selected_column": 0,
+          "source_sha256": "49dee0d46a98957c2eecdb6c7d611eeb30260455b4d82f50a0a4f476c1815540",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000007/ccl-20251130.htm",
+          "start": "2024-12-01",
+          "table_columns": 3,
+          "ttm_bridge_role": "latest_fy",
+          "unit": "USD",
+          "value_raw": 3611000000.0,
+          "value_usd_millions": 3611.0,
+          "visible_signed_millions": -3611.0,
+          "xbrl_tag": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 2139000000.0
+          },
+          "context_id": "c-1",
+          "duration_days_inclusive": 274,
+          "end": "2026-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "purchases of property and equipment",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "capital_expenditures",
+          "selected_column": 0,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2025-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "current_ytd",
+          "unit": "USD",
+          "value_raw": 2139000000.0,
+          "value_usd_millions": 2139.0,
+          "visible_signed_millions": -2139.0,
+          "xbrl_tag": "PaymentsToAcquirePropertyPlantAndEquipment"
+        },
+        {
+          "accession": "0000815097-26-000107",
+          "companyfacts_parity": {
+            "matches": 1,
+            "raw_value": 2105000000.0
+          },
+          "context_id": "c-13",
+          "duration_days_inclusive": 274,
+          "end": "2025-08-31",
+          "filed": "2026-09-29",
+          "filing_cutoff": "2026-10-14",
+          "filing_table_label": "purchases of property and equipment",
+          "fiscal_quarter": 3,
+          "form": "10-Q",
+          "metric": "capital_expenditures",
+          "selected_column": 1,
+          "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+          "source_type": "sec_filing_table",
+          "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+          "start": "2024-12-01",
+          "table_columns": 2,
+          "ttm_bridge_role": "prior_ytd",
+          "unit": "USD",
+          "value_raw": 2105000000.0,
+          "value_usd_millions": 2105.0,
+          "visible_signed_millions": -2105.0,
+          "xbrl_tag": "PaymentsToAcquirePropertyPlantAndEquipment"
+        }
+      ]
+    }
+  },
+  "schema_version": 1,
+  "scope": "Offline genuine SEC Q1/Q3 source/context/table and unchanged-model arithmetic replay; not original-vintage API, borrower PD, adjusted EBITDA, covenant compliance, legal insolvency recovery, forecast or recommendation. 2026 legal redomiciliation and entity guarantees require separate legal analysis."
+}

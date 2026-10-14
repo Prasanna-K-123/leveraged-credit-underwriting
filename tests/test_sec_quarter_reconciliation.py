@@ -10,7 +10,7 @@ import unittest
 from research_sec_quarters.capture import CIK, LimitedSession, select_targets
 from research_sec_quarters.reconcile import (extract_metric, fact_parity, METRICS,
     number, parse_document, reconcile, verify_capture, write_result)
-from research_sec_quarters.run import INPUT, balance_sheet, historical_blobs, unpack_input, reported_debt_classes
+from research_sec_quarters.run import INPUT, balance_sheet, historical_blobs, unpack_input, reported_debt_classes, compare_reference
 
 
 def statement(value="10", visible=None, metric="operating_income", context_entity=CIK,
@@ -40,7 +40,7 @@ class ParserTests(unittest.TestCase):
     def test_independent_numeric_magnitudes(self):
         self.assertEqual(number("( $ 1,234 )"), Decimal(-1234))
         self.assertEqual(number("-17.25"), Decimal("-17.25"))
-        for text in ["1abc", "1/2", "NaN", "inf", "--1", "1 2x", "(1", "1e6"]:
+        for text in ["1abc", "1/2", "NaN", "inf", "--1", "1 2x", "(1", "1e6", "1 2", "1$2", "1,,234", "12,34"]:
             with self.subTest(text=text), self.assertRaises(ValueError):
                 number(text)
 
@@ -65,7 +65,8 @@ class ParserTests(unittest.TestCase):
             with self.assertRaises(ValueError): self.extract(body)
 
     def test_dimensions_and_wrong_entity_refused(self):
-        for body in [statement(dimensional=True), statement(context_entity="0000000001")]:
+        for body in [statement(dimensional=True), statement(context_entity="0000000001"),
+                     statement().replace(b'http://www.sec.gov/CIK', b'http://example.org/identifier')]:
             with self.assertRaises(ValueError): self.extract(body)
 
     def test_unit_scale_and_transform_refused(self):
@@ -207,6 +208,15 @@ class OriginalSourceTests(unittest.TestCase):
 
 
 class RateTests(unittest.TestCase):
+    def test_reference_exact_types_shape_and_finite_numbers(self):
+        expected = dict(status="REFUSED", count=2, data=[1.0, None, False])
+        compare_reference(copy.deepcopy(expected), expected)
+        bad_cases = [dict(expected,status="PASS"),dict(expected,count=2.0),dict(expected,count=True),
+                     dict(expected,data=[1.0]),dict(expected,data=[float('nan'),None,False]),
+                     dict(expected,data=[1.1,None,False]),dict(expected,extra=1)]
+        for actual in bad_cases:
+            with self.assertRaises(ValueError): compare_reference(actual, expected)
+
     def test_sequential_rate_limit_without_retry(self):
         times, calls = [0.0], []
         class Session:

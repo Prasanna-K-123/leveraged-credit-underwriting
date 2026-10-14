@@ -5,6 +5,7 @@ import argparse
 from decimal import Decimal
 import hashlib
 import json
+import math
 from pathlib import Path
 import tempfile
 import zipfile
@@ -199,6 +200,9 @@ def run(output):
         result = full_replay(capture)
     if historical_blobs() != before:
         raise ValueError("Historical source/reference mutation")
+    reference = ROOT / "research_sec_quarters/reference_summary.json"
+    if reference.exists():
+        compare_reference(result, json.loads(reference.read_text()))
     with tempfile.TemporaryDirectory(prefix="sec-quarter-result-", dir=output.parent) as temp:
         folder = Path(temp)
         (folder / "summary.json").write_text(json.dumps(result, indent=2, sort_keys=True, allow_nan=False) + "\n")
@@ -206,6 +210,25 @@ def run(output):
             raise ValueError("Output appeared during replay")
         folder.rename(output)
     return result
+
+
+def compare_reference(actual, expected, path="root"):
+    """Exact structure/types/identities, finite float roundoff only."""
+    if type(actual) is not type(expected):
+        raise ValueError(f"Reference type mismatch: {path}")
+    if isinstance(actual, dict):
+        if actual.keys() != expected.keys():
+            raise ValueError(f"Reference keys mismatch: {path}")
+        for key in actual: compare_reference(actual[key], expected[key], path + "." + key)
+    elif isinstance(actual, list):
+        if len(actual) != len(expected):
+            raise ValueError(f"Reference length mismatch: {path}")
+        for index, (a,e) in enumerate(zip(actual, expected)): compare_reference(a,e,path + f"[{index}]")
+    elif isinstance(actual, float):
+        if not math.isfinite(actual) or not math.isfinite(expected) or not math.isclose(actual, expected, rel_tol=1e-10, abs_tol=1e-10):
+            raise ValueError(f"Reference numeric mismatch: {path}")
+    elif actual != expected:
+        raise ValueError(f"Reference exact value mismatch: {path}")
 
 
 def main():
