@@ -10,7 +10,7 @@ import unittest
 from research_sec_quarters.capture import CIK, LimitedSession, select_targets
 from research_sec_quarters.reconcile import (extract_metric, fact_parity, METRICS,
     number, parse_document, reconcile, verify_capture, write_result)
-from research_sec_quarters.run import INPUT, balance_sheet, historical_blobs, unpack_input
+from research_sec_quarters.run import INPUT, balance_sheet, historical_blobs, unpack_input, reported_debt_classes
 
 
 def statement(value="10", visible=None, metric="operating_income", context_entity=CIK,
@@ -160,6 +160,22 @@ class OriginalSourceTests(unittest.TestCase):
         for e in values:
             if e.get("end") == "2026-02-28" and e.get("accn") == "0000815097-26-000037": e["val"] += 1
         with self.assertRaises(ValueError): balance_sheet(self.verified["q1_2026"], bad)
+
+    def test_q3_reported_debt_and_missing_secured_model_input(self):
+        debt, evidence = reported_debt_classes(self.verified["q3_2026"])
+        self.assertEqual(debt["gross_debt"], 24559)
+        self.assertEqual(debt["unsecured_subsidiary_guaranteed"], 10953)
+        self.assertEqual(debt["unsecured_no_subsidiary_guarantee"], 13606)
+        self.assertNotIn("secured_subsidiary_guaranteed", debt)
+        self.assertEqual(len(evidence), 6)
+        bad = dict(self.verified["q3_2026"])
+        bad["body"] = bad["body"].replace(b'13,606', b'13,607')
+        with self.assertRaises(ValueError): reported_debt_classes(bad)
+
+    def test_q3_collateral_status_must_be_original_disclosure(self):
+        bad = dict(self.verified["q3_2026"])
+        bad["body"] = bad["body"].replace(b'were no longer secured as of August 31, 2026', b'were secured as of August 31, 2026')
+        with self.assertRaises(ValueError): reported_debt_classes(bad)
 
     def test_raw_corruption_and_partial_collection_refused(self):
         with tempfile.TemporaryDirectory() as temp:

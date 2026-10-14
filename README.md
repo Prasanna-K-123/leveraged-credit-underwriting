@@ -1,5 +1,24 @@
 > 13 October2026: a separate strict Q1/Q2/Q3 **calculation API** is now implemented and checked using144 synthetic calendar/context cases. The original default live CLI and heuristic table parser remain Q2-only. Read the [new exact-period review](docs/EXPLICIT_PERIOD_BRIDGE_REVIEW.md) for method, reproducibility and the empirical-refresh boundary. Accepted reference outputs are unchanged.
 
+## Original SEC Q1/Q3 evidence — October 2026
+
+The separate [registered quarter study](research_sec_quarters/PROTOCOL.md) now retains five authentic SEC filing captures, their original hashes, exact whole-entity USD contexts, independent visible-column checks and both originally filed comparators. The [source/rights notice](research_sec_quarters/SOURCES.md) keeps these third-party filings separate from the code licence.
+
+Q1 FY2026 TTM revenue is $26,977m, EBITDA proxy $7,379m and FCF proxy $2,986m. Q3 TTM revenue is $27,593m, EBITDA proxy $7,311m and FCF proxy $3,176m. These are mechanical statement bridges, not adjusted EBITDA, management guidance or borrower credit estimates.
+
+**Q3 changes the debt structure.** The [adverse finding](research_sec_quarters/ADVERSE_FINDING.md) records the unchanged historical model's failed Q3 debt parsing. The new path verifies the reported Q3 debt and maturity totals and retains descriptive/scenario arithmetic; it explicitly refuses the old secured-collateral, covenant-liquidity and recovery calculation. It never supplies a made-up secured zero or another quarter's values. The registered two-quarter full-model success criterion remains unmet. Q1 supports the complete unchanged illustrative-model replay; legal recovery and covenant certification are outside both releases.
+
+Reproduce the pinned evidence offline after installing the repository dependencies:
+
+```bash
+python -m research_sec_quarters.run --output /tmp/ccl-quarter-evidence-new
+```
+
+The output path must be fresh and outside the repository. The frozen original source ZIP is checked before use; historical source/reference blob identities are checked before and after. The dedicated [offline quarter workflow](.github/workflows/sec-quarter-replay.yml) validates this bounded source/replay contract and its Q3 refusal. Source capture and tests are not independent practitioner endorsement or historical-vintage API completeness.
+
+The original Q2 reference, source/model and default CLI remain intact below. That default CLI deliberately refuses a latest non-Q2 refresh; use the separate command for these pinned Q1/Q3 observations. All prior adverse findings and assumptions remain visible.
+
+
 # Leveraged Credit Underwriting, Debt Capacity & Downside Recovery
 
 [![Validation](https://github.com/Prasanna-K-123/leveraged-credit-underwriting/actions/workflows/validation.yml/badge.svg?branch=main)](https://github.com/Prasanna-K-123/leveraged-credit-underwriting/actions/workflows/validation.yml)

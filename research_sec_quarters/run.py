@@ -88,6 +88,44 @@ def balance_sheet(source, companyfacts):
     return balance, evidence
 
 
+def reported_debt_classes(source):
+    """Read exact reported rows; missing secured class is never imputed."""
+    doc, _, _ = parse_document(source["body"])
+    labels = {
+        "unsecured_subsidiary_guaranteed": "total unsecured subsidiary guaranteed",
+        "unsecured_no_subsidiary_guarantee": "total unsecured (no subsidiary guarantee)",
+        "gross_debt": "total debt",
+        "net_debt_reported": "total debt, net of unamortized debt issuance costs and discounts",
+        "current_portion_long_term_debt": "less: current portion of long-term debt",
+        "long_term_debt": "long-term debt",
+    }
+    tables = []
+    for table in doc.iter("table"):
+        rows = {clean_text(r[0]).lower(): r for r in table.iter("tr") if len(r)}
+        if set(labels.values()).issubset(rows):
+            tables.append((table, rows))
+    if len(tables) != 1:
+        raise ValueError("Exactly one complete reported debt table required")
+    table, rows = tables[0]
+    if "total secured subsidiary guaranteed" in rows:
+        raise ValueError("Expected Q3 absence of historical secured class is not present")
+    result, evidence = {}, []
+    for key, label in labels.items():
+        numbers = visible_numbers(list(rows[label])[1:])
+        if len(numbers) != 2:
+            raise ValueError("Debt table current/comparative column schema mismatch")
+        result[key] = float(abs(numbers[0]))
+        evidence.append(dict(metric=key, label=label, value_usd_millions=result[key],
+            accession=source["manifest"]["accession"], report_end=source["manifest"]["report_end"],
+            source_sha256=source["sources"]["filing_html"]["sha256"], source_url=source["sources"]["filing_html"]["url"]))
+    if result["unsecured_subsidiary_guaranteed"] + result["unsecured_no_subsidiary_guarantee"] != result["gross_debt"]:
+        raise ValueError("Reported Q3 unsecured classes do not completely reconcile to total debt")
+    text = clean_text(doc).lower()
+    if "were no longer secured as of august 31, 2026" not in text or "became unsecured in june 2026" not in text:
+        raise ValueError("Q3 reported collateral-status explanation missing")
+    return result, evidence
+
+
 def full_replay(capture):
     from credit_underwriting.filing import (extract_covenant_liquidity_context,
         extract_debt_stack_millions, extract_maturity_schedule_millions)
@@ -99,7 +137,32 @@ def full_replay(capture):
         source = verified[label]
         body = source["body"].decode("utf-8", errors="strict")
         balance, balance_evidence = balance_sheet(source, facts)
-        debt = extract_debt_stack_millions(body)
+        try:
+            debt = extract_debt_stack_millions(body)
+        except ValueError as error:
+            expected_error = "Debt-table row not found or not numeric: Total Secured Subsidiary Guaranteed"
+            if label != "q3_2026" or str(error) != expected_error:
+                raise
+            debt, debt_evidence = reported_debt_classes(source)
+            maturities = extract_maturity_schedule_millions(body)
+            gaps = dict(carrying_value=balance["debt_current"] + balance["debt_noncurrent"] - debt["net_debt_reported"],
+                current_noncurrent=debt["current_portion_long_term_debt"] + debt["long_term_debt"] - debt["net_debt_reported"],
+                maturity_total=maturities["Total"] - debt["gross_debt"],
+                reported_unsecured_classes=debt["unsecured_subsidiary_guaranteed"] + debt["unsecured_no_subsidiary_guarantee"] - debt["gross_debt"])
+            if any(abs(gap) > 2 for gap in gaps.values()):
+                raise ValueError(f"Q3 source debt/maturity reconciliation failed: {gaps}")
+            ttm = result["metrics"]
+            result.update(balance_sheet=balance, balance_evidence=balance_evidence, debt_stack=debt,
+                debt_evidence=debt_evidence, maturities=maturities, reconciliation_gaps_usd_millions=gaps,
+                underwriting_replay=dict(status="PARTIAL_WITH_RECOVERY_REFUSED", original_parser_error=str(error),
+                    reason="The Q3 filing reclassifies debt/guarantees and has no reported secured subtotal. Original three-class collateral/recovery model is unsupported; no zero, old-quarter value or legal inference is substituted."),
+                descriptive_credit_ratios=dict(gross_leverage=debt["gross_debt"] / ttm["ebitda_proxy"],
+                    net_leverage=(debt["gross_debt"] - balance["cash"]) / ttm["ebitda_proxy"],
+                    interest_coverage_proxy=ttm["ebitda_proxy"] / ttm["interest_expense"]),
+                scenarios=scenario_analysis(ttm, debt).to_dict("records"),
+                debt_capacity=debt_capacity_grid(ttm["ebitda_proxy"], ttm["interest_expense"], debt["gross_debt"]).to_dict("records"),
+                recovery=None, covenant_liquidity_context=None, maturity_coverage=None)
+            continue
         maturities = extract_maturity_schedule_millions(body)
         context = extract_covenant_liquidity_context(body)
         gaps = dict(carrying_value=balance["debt_current"] + balance["debt_noncurrent"] - debt["net_debt_reported"],
@@ -112,6 +175,7 @@ def full_replay(capture):
         ttm = result["metrics"]
         scenarios = scenario_analysis(ttm, debt)
         result.update(balance_sheet=balance, balance_evidence=balance_evidence, debt_stack=debt,
+            underwriting_replay=dict(status="COMPLETE_UNCHANGED_MODEL_ARITHMETIC", limitations="Simplified consolidated sensitivity; not covenant or legal recovery validation"),
             maturities=maturities, covenant_liquidity_context=context, reconciliation_gaps_usd_millions=gaps,
             current_credit_metrics=current_credit_metrics(ttm, balance, debt, context),
             scenarios=scenarios.to_dict("records"),
@@ -149,7 +213,9 @@ def main():
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args()
     result = run(args.output)
-    print(json.dumps({label: dict(ttm=r["metrics"], current=r["current_credit_metrics"], gaps=r["reconciliation_gaps_usd_millions"])
+    print(json.dumps({label: dict(ttm=r["metrics"], replay=r["underwriting_replay"],
+                                current=r.get("current_credit_metrics", r.get("descriptive_credit_ratios")),
+                                gaps=r["reconciliation_gaps_usd_millions"])
                       for label, r in result["results"].items()}, indent=2, sort_keys=True))
 
 
