@@ -1,0 +1,242 @@
+{
+  ".github/workflows/period-bridge.yml": {
+    "current_path": ".github/workflows/period-bridge.yml",
+    "git_blob_sha": "165813f5303ca7dee0a44ba8fea58e7dfbc22e3b"
+  },
+  ".github/workflows/sec-quarter-capture.yml": {
+    "current_path": ".github/workflows/sec-quarter-capture.yml",
+    "git_blob_sha": "1a6ef00bb198da786d4e5b90183dbac3299a0390"
+  },
+  ".github/workflows/sec-quarter-replay.yml": {
+    "current_path": ".github/workflows/sec-quarter-replay.yml",
+    "git_blob_sha": "7924b8d261bd50b1eb96d9f69e3a0831984df403"
+  },
+  ".github/workflows/validation.yml": {
+    "current_path": ".github/workflows/validation.yml",
+    "git_blob_sha": "0a5992888405e8d0e4c3d26c140a601a6e662a78"
+  },
+  ".gitignore": {
+    "current_path": ".gitignore",
+    "git_blob_sha": "6f8d994e95551646292a09a12743ab4c69bb719c"
+  },
+  "LICENSE": {
+    "current_path": "LICENSE",
+    "git_blob_sha": "c45a2ca246aad5677f46cde748edf99c73bfe853"
+  },
+  "README.md": {
+    "current_path": "docs/HISTORICAL_README_BEFORE_POSTTRANSITION_20261014.md",
+    "git_blob_sha": "a9f59a39c47ecfd3268de0613f94ac78ac924f92"
+  },
+  "docs/EXPLICIT_PERIOD_BRIDGE_PROTOCOL.md": {
+    "current_path": "docs/EXPLICIT_PERIOD_BRIDGE_PROTOCOL.md",
+    "git_blob_sha": "02d8e4140a01e2f440c1eedddad7a6c1a688efad"
+  },
+  "docs/EXPLICIT_PERIOD_BRIDGE_REVIEW.md": {
+    "current_path": "docs/EXPLICIT_PERIOD_BRIDGE_REVIEW.md",
+    "git_blob_sha": "c3d634c8b2c2aafc2709c26d5f200ee6c490e551"
+  },
+  "docs/HISTORICAL_README_BEFORE_SEC_Q1_Q3_20261014.md": {
+    "current_path": "docs/HISTORICAL_README_BEFORE_SEC_Q1_Q3_20261014.md",
+    "git_blob_sha": "2ee6f14a1528b73378e1795013797b8df0f26b21"
+  },
+  "docs/HISTORICAL_README_PRE_PERIOD_BRIDGE_2026-10-13.md": {
+    "current_path": "docs/HISTORICAL_README_PRE_PERIOD_BRIDGE_2026-10-13.md",
+    "git_blob_sha": "e8853cb01644b3b5cc3ec19372af14a91a669d2d"
+  },
+  "docs/METHODOLOGY.md": {
+    "current_path": "docs/METHODOLOGY.md",
+    "git_blob_sha": "9a8806e134787a6e1546e02b449e9ac787d216f5"
+  },
+  "docs/RESEARCH_PROTOCOL.md": {
+    "current_path": "docs/RESEARCH_PROTOCOL.md",
+    "git_blob_sha": "6b4ea44bb6d9dec6fac42a41dcd91f9ace06359b"
+  },
+  "docs/VALIDATION.md": {
+    "current_path": "docs/VALIDATION.md",
+    "git_blob_sha": "07b9dd5e738425a16ac4aadb628773c47d70085c"
+  },
+  "pyproject.toml": {
+    "current_path": "pyproject.toml",
+    "git_blob_sha": "caefc8cca2c9b67a3758f3ebdc84484bbff11eda"
+  },
+  "reference/MANIFEST.md": {
+    "current_path": "reference/MANIFEST.md",
+    "git_blob_sha": "5e8641124b2af0e9fc5e381601ab2ced439a03fa"
+  },
+  "reference/annual_history.csv": {
+    "current_path": "reference/annual_history.csv",
+    "git_blob_sha": "bb8dfdd6547d5fe15a5465afe56611b0f68ee137"
+  },
+  "reference/balance_sheet_snapshot.csv": {
+    "current_path": "reference/balance_sheet_snapshot.csv",
+    "git_blob_sha": "d62bbdb67e12d0ee8a9e23f6295b5586ceef7137"
+  },
+  "reference/covenant_liquidity_context.csv": {
+    "current_path": "reference/covenant_liquidity_context.csv",
+    "git_blob_sha": "255fb63ac527826d683f6f07545899ed586b72ea"
+  },
+  "reference/debt_capacity_sensitivity.csv": {
+    "current_path": "reference/debt_capacity_sensitivity.csv",
+    "git_blob_sha": "c3353a3f1a19a3c3dce3600e901f7a17597ed04c"
+  },
+  "reference/debt_stack.csv": {
+    "current_path": "reference/debt_stack.csv",
+    "git_blob_sha": "21a9050bc027d84570f3c1d6ad619de704d730ae"
+  },
+  "reference/maturity_liquidity_coverage.csv": {
+    "current_path": "reference/maturity_liquidity_coverage.csv",
+    "git_blob_sha": "07bdbb2540432643627806d6a648a61f98b65950"
+  },
+  "reference/maturity_schedule.csv": {
+    "current_path": "reference/maturity_schedule.csv",
+    "git_blob_sha": "b7cf4bdb857286730d849f406baf449170f79b3f"
+  },
+  "reference/recovery_waterfall_sensitivity.csv": {
+    "current_path": "reference/recovery_waterfall_sensitivity.csv",
+    "git_blob_sha": "f1114ab8fb150b4ccb18ba9f577198f733c3b8d3"
+  },
+  "reference/scenario_analysis.csv": {
+    "current_path": "reference/scenario_analysis.csv",
+    "git_blob_sha": "dcd38e43bf224b54fadd868a283960807a15ef26"
+  },
+  "reference/source_register.csv": {
+    "current_path": "reference/source_register.csv",
+    "git_blob_sha": "89011db0f0a9625a6a7bf4fabae615b62e3cbb58"
+  },
+  "reference/ttm_metrics.csv": {
+    "current_path": "reference/ttm_metrics.csv",
+    "git_blob_sha": "f7ff04bc26d5028e4ae0daf776b6871e35874003"
+  },
+  "reports/reference_credit_underwriting_memo.md": {
+    "current_path": "reports/reference_credit_underwriting_memo.md",
+    "git_blob_sha": "32c6e4851f28a2c2bafec7a8146947ff1913336e"
+  },
+  "requirements.txt": {
+    "current_path": "requirements.txt",
+    "git_blob_sha": "cc2576cbe5b6bb3803b1ca571a1b07b8bc711cf6"
+  },
+  "research_period_bridge/HISTORICAL_GIT_BLOBS.json": {
+    "current_path": "research_period_bridge/HISTORICAL_GIT_BLOBS.json",
+    "git_blob_sha": "cc17fa14dc8906ff6b697b77a640a7e63e4cfcf5"
+  },
+  "research_period_bridge/fixtures.py": {
+    "current_path": "research_period_bridge/fixtures.py",
+    "git_blob_sha": "ab0be2f81f4e315e1f761966d9cf658621ec20c6"
+  },
+  "research_period_bridge/reference_summary.json": {
+    "current_path": "research_period_bridge/reference_summary.json",
+    "git_blob_sha": "2a3b16c00e73fb6cdcf2550f8951a5b894f2f398"
+  },
+  "research_period_bridge/run.py": {
+    "current_path": "research_period_bridge/run.py",
+    "git_blob_sha": "33da34e70ecec715008c00901732816e18571486"
+  },
+  "research_sec_intake/PROTOCOL.md": {
+    "current_path": "research_sec_intake/PROTOCOL.md",
+    "git_blob_sha": "878a4a863729c4d5f7a86db5ca2c4d659daeed55"
+  },
+  "research_sec_intake/intake.py": {
+    "current_path": "research_sec_intake/intake.py",
+    "git_blob_sha": "9705eca517c0d9e90a9729bacfc4a834a96a27cc"
+  },
+  "research_sec_quarters/ADVERSE_FINDING.md": {
+    "current_path": "research_sec_quarters/ADVERSE_FINDING.md",
+    "git_blob_sha": "62491127823ef77722e0ae31495abe963e4a0786"
+  },
+  "research_sec_quarters/HISTORICAL_GIT_BLOBS.json": {
+    "current_path": "research_sec_quarters/HISTORICAL_GIT_BLOBS.json",
+    "git_blob_sha": "74f36059dd6cfb4aa1336e57c915b51d46bf475b"
+  },
+  "research_sec_quarters/PROTOCOL.md": {
+    "current_path": "research_sec_quarters/PROTOCOL.md",
+    "git_blob_sha": "6fe99852b443caa6ec5844d115e67b4cb46f121b"
+  },
+  "research_sec_quarters/SOURCES.md": {
+    "current_path": "research_sec_quarters/SOURCES.md",
+    "git_blob_sha": "aed2510a98087a569b7e6bf93e371db7385ed0c7"
+  },
+  "research_sec_quarters/UNDERWRITING_EXTENSION_PROTOCOL.md": {
+    "current_path": "research_sec_quarters/UNDERWRITING_EXTENSION_PROTOCOL.md",
+    "git_blob_sha": "c9fcca4f8a0f09a989ae6a55be9a3f581fc29ee1"
+  },
+  "research_sec_quarters/capture.py": {
+    "current_path": "research_sec_quarters/capture.py",
+    "git_blob_sha": "9a6109501fec745dae48d2b4de7a258c58601907"
+  },
+  "research_sec_quarters/input/original_sec_capture_20261014.zip": {
+    "current_path": "research_sec_quarters/input/original_sec_capture_20261014.zip",
+    "git_blob_sha": "a3b0c2f49d9f50775e1950c55789ef3e1f310414"
+  },
+  "research_sec_quarters/reconcile.py": {
+    "current_path": "research_sec_quarters/reconcile.py",
+    "git_blob_sha": "3a1204b8a2902385dbf5f37584ba4d61a6a18794"
+  },
+  "research_sec_quarters/reference_summary.json": {
+    "current_path": "research_sec_quarters/reference_summary.json",
+    "git_blob_sha": "1c1caa4ea6f323bb0f9306b06d32f3f420293737"
+  },
+  "research_sec_quarters/run.py": {
+    "current_path": "research_sec_quarters/run.py",
+    "git_blob_sha": "749ec3e5993fa47fd607346ae43dc6ad9b598382"
+  },
+  "run_credit_research.py": {
+    "current_path": "run_credit_research.py",
+    "git_blob_sha": "f0329fd18553910ac67c865168820da58eca25c5"
+  },
+  "src/credit_underwriting/__init__.py": {
+    "current_path": "src/credit_underwriting/__init__.py",
+    "git_blob_sha": "65b44a25c856ea9fecf6b6ca9b7832fbc72bde9b"
+  },
+  "src/credit_underwriting/facts.py": {
+    "current_path": "src/credit_underwriting/facts.py",
+    "git_blob_sha": "7d7bad6127f610b94d5cfd805a5451851c3260fe"
+  },
+  "src/credit_underwriting/filing.py": {
+    "current_path": "src/credit_underwriting/filing.py",
+    "git_blob_sha": "2af84e76cd775f3656271676d44ceb72bbf05c73"
+  },
+  "src/credit_underwriting/period_bridge.py": {
+    "current_path": "src/credit_underwriting/period_bridge.py",
+    "git_blob_sha": "69aa045d82135b752554bbfb2e49bb566a3c8ce7"
+  },
+  "src/credit_underwriting/reporting.py": {
+    "current_path": "src/credit_underwriting/reporting.py",
+    "git_blob_sha": "03c14415073e42b98943e309b30492c484a3d36c"
+  },
+  "src/credit_underwriting/sec_data.py": {
+    "current_path": "src/credit_underwriting/sec_data.py",
+    "git_blob_sha": "1012edcc094520d0e11972bcc4b7c37fa00b56e5"
+  },
+  "src/credit_underwriting/underwriting.py": {
+    "current_path": "src/credit_underwriting/underwriting.py",
+    "git_blob_sha": "1285c792cfc2c69306a53ab4d3b61c32948abee6"
+  },
+  "tests/test_explicit_period_bridge.py": {
+    "current_path": "tests/test_explicit_period_bridge.py",
+    "git_blob_sha": "887cadf669553365393bbcb1daeb845f44cef552"
+  },
+  "tests/test_sec_intake.py": {
+    "current_path": "tests/test_sec_intake.py",
+    "git_blob_sha": "b357c0027234e1ec0bac10492fa8e657c853b882"
+  },
+  "tests/test_sec_quarter_reconciliation.py": {
+    "current_path": "tests/test_sec_quarter_reconciliation.py",
+    "git_blob_sha": "855757e5a79abb0505e5b08302b05ebf60fc2ea3"
+  },
+  "tests/test_statement_series.py": {
+    "current_path": "tests/test_statement_series.py",
+    "git_blob_sha": "96b899a1770700aa695b849812439ddb6d2d13cf"
+  },
+  "tests/test_ttm_quarter_guard.py": {
+    "current_path": "tests/test_ttm_quarter_guard.py",
+    "git_blob_sha": "fdb373c1542bcd37388fa14cff05b36820d23aef"
+  },
+  "tests/test_underwriting.py": {
+    "current_path": "tests/test_underwriting.py",
+    "git_blob_sha": "ea277d814e4a3c9b2cef1ddce9bec9b438ae2d00"
+  },
+  "verify_reference.py": {
+    "current_path": "verify_reference.py",
+    "git_blob_sha": "d4365ca23b5cc360593e59c1934539c1e5a0349a"
+  }
+}
