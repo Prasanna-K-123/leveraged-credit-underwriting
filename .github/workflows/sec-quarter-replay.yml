@@ -1,0 +1,37 @@
+name: Original SEC Q1 Q3 offline reconciliation
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install original dependency pins
+        run: python -m pip install -r requirements.txt -e .
+      - name: Source and period regression tests
+        run: python -m unittest discover -s tests -p test_sec_quarter_reconciliation.py -v
+      - name: Offline original-byte full quarter replay
+        run: python -m research_sec_quarters.run --output /tmp/sec-quarters-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Preserve complete quarter evidence
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: original-sec-quarter-replay
+          path: /tmp/sec-quarters-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error

@@ -1,0 +1,9 @@
+# Original SEC source archive and separate rights
+
+`input/original_sec_capture_20261014.zip` contains original public SEC Companyfacts/submissions response bodies and five issuer primary filings. It is preserved for bounded, reproducible financial research, with the original filenames, filing text, metadata and attribution intact. The repository's original-code MIT licence does **not** grant rights in these third-party filing bodies. Any source copyrights and use conditions remain with their original holders; this notice asserts no universal raw-redistribution licence.
+
+Capture:2026-10-14, registered workflow38506417615, artifact11867849515. ZIP1564293bytes, SHA256 `f49431e44e83cac39071dd95fdaa56515ca4b540d8522201e400ab6859beed9c`. All fifteen response-body hashes and canonical SEC URLs are in the individual manifests and original `CAPTURE_STATUS.json`. SEC CIK0000815097; annual2025-11-30 and Q12026/Q32026 plus original Q12025/Q32025. The acquisition uses a real descriptive research contact and no credentials, retries or redirects.
+
+SEC API source: https://www.sec.gov/search-filings/edgar-application-programming-interfaces . Actual URLs: https://data.sec.gov/submissions/CIK0000815097.json and https://data.sec.gov/api/xbrl/companyfacts/CIK0000815097.json ; primary-document URLs are grounded in the authentic submissions body and retained in each manifest. No mirror or rendered web extraction replaces an original source body.
+
+These are time-of-download API snapshots. Filtering filing dates to2026-10-14 does not recreate an original historical API vintage. The original accepted Q2 analysis remains separately frozen. The study's mathematical outputs are research proxies and illustrative unchanged-model stresses, not issuer guidance, covenant certificates or legal recovery estimates.
