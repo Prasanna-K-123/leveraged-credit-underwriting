@@ -1,0 +1,36 @@
+name: Registered original SEC quarter capture
+
+on:
+  push:
+    branches: [research/sec-quarter-evidence-20261014]
+    paths:
+      - research_sec_quarters/capture.py
+      - .github/workflows/sec-quarter-capture.yml
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  capture:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install bounded acquisition dependency
+        run: python -m pip install requests==2.32.4
+      - name: Capture registered original SEC bodies
+        env:
+          SEC_USER_AGENT: Prasanna K academic credit research ae26prasanna@mse.ac.in
+        run: python -m research_sec_quarters.capture --output sec-quarter-capture
+      - name: Preserve source or explicit failure diagnostic
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: registered-sec-quarter-original-bodies
+          path: sec-quarter-capture
+          retention-days: 30
+          if-no-files-found: error
