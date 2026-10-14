@@ -119,3 +119,10 @@ A separately registered `credit_underwriting.period_bridge.build_ttm_metrics_per
 [Method registration](docs/EXPLICIT_PERIOD_BRIDGE_PROTOCOL.md) · [complete execution review](docs/EXPLICIT_PERIOD_BRIDGE_REVIEW.md) · [full synthetic reference](research_period_bridge/reference_summary.json).
 
 This separate API does not change or retrospectively certify the original Q2 live refresh and table parser. Actual Q1/Q3 issuer refreshes remain unverified. No accepted reference number, original source/parser/workflow or adverse underwriting finding is changed; the former README is preserved exactly in the dated history document.
+
+
+## Post-transition Q3 debt and financial liquidity extension
+
+[Source-bound review, frozen results and reproduction](docs/POST_TRANSITION_DEBT_LIQUIDITY_REVIEW.md) distinguish the changed current debt categories, 21 instruments, 63 inline amount contexts, conditional revolver and ship-specific financing. A separate static maturity proxy preserves negative later-bucket differences. The disclosed rounding amendment retains nonzero comparative gaps and the initial strict-check failure.
+
+The original full Q3 recovery criterion remains failed. Exact creditor estates, legal priorities, collateral recovery and agreement-defined covenant headroom are refused. The separate 832-case synthetic pari-passu contract and rational oracle are arithmetic checks under explicit assumptions, not observed Q3 recovery. All previous code, source, results and adverse findings remain preserved; the full previous README is [retained here](docs/HISTORICAL_README_BEFORE_POSTTRANSITION_20261014.md).

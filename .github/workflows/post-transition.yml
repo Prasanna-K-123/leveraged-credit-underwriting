@@ -1,0 +1,37 @@
+name: Post-transition debt and liquidity evidence
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reconcile:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - name: Install preserved dependency pins
+        run: python -m pip install -r requirements.txt -e .
+      - name: Post-transition source and synthetic refusal tests
+        run: python -W error -m unittest discover -s tests -p test_post_transition.py -v
+      - name: Frozen original-source and synthetic-contract replay
+        run: python -W error -m research_post_transition.run --output /tmp/post-transition-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Preserve complete evidence
+        if: success()
+        uses: actions/upload-artifact@v4
+        with:
+          name: post-transition-debt-liquidity-evidence
+          path: /tmp/post-transition-${{ github.run_id }}-${{ github.run_attempt }}
+          retention-days: 30
+          if-no-files-found: error

@@ -1,0 +1,1742 @@
+{
+  "actual_post_transition_legal_recovery": null,
+  "disclosed_terms": {
+    "capital_threshold": {
+      "reported_minimum_usd_millions": 5000,
+      "trace": {
+        "normalized_text_sha256": "09a116a40a51fb108ee642196d7140c94ae5dd80b8518cd49dab097cd75af516",
+        "xpath": "/html/body/ix:continuation[4]/div[22]"
+      }
+    },
+    "covenant_period": {
+      "trace": {
+        "normalized_text_sha256": "0a630ea5595a2603ef5b2f3231b6611728449f044c7f5defd64e3a216a800fbe",
+        "xpath": "/html/body/ix:continuation[4]/div[19]"
+      }
+    },
+    "debt_capital_threshold": {
+      "reported_maximum_percent": 65,
+      "trace": {
+        "normalized_text_sha256": "02f799db281a9c27e51e3949412a6139c070c3792058f4e616dd0489866eeadc",
+        "xpath": "/html/body/ix:continuation[4]/div[23]"
+      }
+    },
+    "interest_threshold": {
+      "reported_minimum_ratio": "3.0",
+      "trace": {
+        "normalized_text_sha256": "c072b07a85040851e63fc553b2c563abc68d7270d294fe8c9dbfde4c884c7d9c",
+        "xpath": "/html/body/ix:continuation[4]/div[21]"
+      }
+    },
+    "issuer_compliance": {
+      "independently_recalculated_agreement_compliance": null,
+      "kind": "Issuer-reported compliance",
+      "trace": {
+        "normalized_text_sha256": "036802d00eca1dc070a21cba5ae0fbd2b35e6dd79373c492d1df812693c130bf",
+        "xpath": "/html/body/ix:continuation[4]/div[27]"
+      }
+    },
+    "liquidity_threshold": {
+      "reported_minimum_usd_millions": 1500,
+      "trace": {
+        "normalized_text_sha256": "c192c1ad9deb0853937d89022119521db04ce5d0631c0f6162c9f2ea5be4b911",
+        "xpath": "/html/body/ix:continuation[4]/div[24]"
+      }
+    },
+    "negative_pledge": {
+      "book_value_usd_millions": 20600,
+      "secured_recovery_pool": null,
+      "trace": {
+        "normalized_text_sha256": "da1f98b80b2f87da203ee111c092eac44cfbcb11485f1061524069bebba95308",
+        "xpath": "/html/body/ix:continuation[4]/div[11]"
+      }
+    },
+    "obligor_group_basis": {
+      "trace": {
+        "normalized_text_sha256": "5bd1a199e502d0b95ae10b57a7133ef196f8aff97878cbee62b0a7705d20a997",
+        "xpath": "/html/body/div[484]"
+      }
+    },
+    "possible_future_shelf": {
+      "existing_instrument_guarantee_mapping": null,
+      "trace": {
+        "normalized_text_sha256": "4deb6ad139b507b6275ce9862524e6d5b5d78999837f6edfdef101802db948fc",
+        "xpath": "/html/body/div[482]"
+      }
+    },
+    "revolver": {
+      "availability": "Conditional on facility terms; not unrestricted cash",
+      "available_usd_millions": 4500,
+      "trace": {
+        "normalized_text_sha256": "5f9dca9643653c05c9d73fc9f15a79a5d4f2e791c3628955e7f29bf257ce28a9",
+        "xpath": "/html/body/ix:continuation[4]/div[7]"
+      }
+    },
+    "security_released_2027_2028": {
+      "trace": {
+        "normalized_text_sha256": "44a52f28ca2a90d990dbfc47ef472280b6544ab07e78b6a8fcc80482e344cfc9",
+        "xpath": "/html/body/ix:continuation[3]/ix:continuation/div[3]"
+      }
+    },
+    "security_released_redeemed_2029": {
+      "trace": {
+        "normalized_text_sha256": "3899ad40fe8a2027d2aa1e608a4cdf7752cfae6e37b628f50e9c9c7dd9c3a8bb",
+        "xpath": "/html/body/ix:continuation[3]/ix:continuation/div[4]"
+      }
+    },
+    "ship_export_facilities": {
+      "trace": {
+        "normalized_text_sha256": "da1f98b80b2f87da203ee111c092eac44cfbcb11485f1061524069bebba95308",
+        "xpath": "/html/body/ix:continuation[4]/div[11]"
+      },
+      "undrawn_usd_millions": 10700,
+      "use": "Specified future ship deliveries; excluded from general liquidity proxy"
+    },
+    "subsidiary_guarantees_changed": {
+      "trace": {
+        "normalized_text_sha256": "d5a30103d6264af0e30239595b45aa29426aaae5aafb57b3d6771fb0ee1599c7",
+        "xpath": "/html/body/ix:continuation[4]/ix:continuation/div[2]"
+      }
+    },
+    "sun_princess_exception": {
+      "exact_instrument_estate_mapping": null,
+      "rounded_disclosed_usd_millions": 1700,
+      "trace": {
+        "normalized_text_sha256": "2dc31500391bf7f2c732d16e9708807e7e69edf9b43215a130c672bd3945da7b",
+        "xpath": "/html/body/ix:continuation[4]/div[2]"
+      }
+    }
+  },
+  "financial_liquidity_proxy": {
+    "agreement_defined_covenant_headroom": null,
+    "basis": "Static financial proxy; excludes future operating cash, investment needs, refinancing and legal availability tests",
+    "buckets": [
+      {
+        "bucket": "Remainder of 2026",
+        "cash_only_minus_cumulative": 919,
+        "cash_plus_revolver_after_fixed_reserve_minus_cumulative": 3919,
+        "cash_plus_revolver_minus_cumulative": 5419,
+        "cumulative_principal_usd_millions": 301,
+        "principal_usd_millions": 301
+      },
+      {
+        "bucket": "2027",
+        "cash_only_minus_cumulative": -1598,
+        "cash_plus_revolver_after_fixed_reserve_minus_cumulative": 1402,
+        "cash_plus_revolver_minus_cumulative": 2902,
+        "cumulative_principal_usd_millions": 2818,
+        "principal_usd_millions": 2517
+      },
+      {
+        "bucket": "2028",
+        "cash_only_minus_cumulative": -5559,
+        "cash_plus_revolver_after_fixed_reserve_minus_cumulative": -2559,
+        "cash_plus_revolver_minus_cumulative": -1059,
+        "cumulative_principal_usd_millions": 6779,
+        "principal_usd_millions": 3961
+      },
+      {
+        "bucket": "2029",
+        "cash_only_minus_cumulative": -9190,
+        "cash_plus_revolver_after_fixed_reserve_minus_cumulative": -6190,
+        "cash_plus_revolver_minus_cumulative": -4690,
+        "cumulative_principal_usd_millions": 10410,
+        "principal_usd_millions": 3631
+      },
+      {
+        "bucket": "2030",
+        "cash_only_minus_cumulative": -12075,
+        "cash_plus_revolver_after_fixed_reserve_minus_cumulative": -9075,
+        "cash_plus_revolver_minus_cumulative": -7575,
+        "cumulative_principal_usd_millions": 13295,
+        "principal_usd_millions": 2885
+      },
+      {
+        "bucket": "Thereafter",
+        "cash_only_minus_cumulative": -23339,
+        "cash_plus_revolver_after_fixed_reserve_minus_cumulative": -20339,
+        "cash_plus_revolver_minus_cumulative": -18839,
+        "cumulative_principal_usd_millions": 24559,
+        "principal_usd_millions": 11264
+      }
+    ],
+    "cash_plus_conditional_revolver_usd_millions": 5720,
+    "cash_usd_millions": 1220,
+    "conditional_revolver_usd_millions": 4500,
+    "fixed_reserve_sensitivity_usd_millions": 1500,
+    "legal_maturity_coverage": null,
+    "ship_specific_export_facilities_included": false
+  },
+  "inline_amount_contexts": [
+    {
+      "context_id": "c-109",
+      "dimensional": true,
+      "displayed_amount": 0,
+      "element_id": "f-471",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "bda050585a00f0f6cb502350559d75532ae3b244c9498b996e7c5df2d98dfc8d",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[10]/td[7]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 0
+    },
+    {
+      "context_id": "c-110",
+      "dimensional": true,
+      "displayed_amount": 1131,
+      "element_id": "f-472",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "988c40796f499de7df458034b4bbbc3a4043752c8efedfc5b703cd792fbdee4a",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[10]/td[11]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1131
+    },
+    {
+      "context_id": "c-111",
+      "dimensional": true,
+      "displayed_amount": 192,
+      "element_id": "f-474",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "eb3be230bbd2844b1f5d8f2e4fab9ffba8ab22cfeeb69c4c1361993ba4f377b9",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[11]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 192
+    },
+    {
+      "context_id": "c-112",
+      "dimensional": true,
+      "displayed_amount": 192,
+      "element_id": "f-475",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "eb3be230bbd2844b1f5d8f2e4fab9ffba8ab22cfeeb69c4c1361993ba4f377b9",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[11]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 192
+    },
+    {
+      "context_id": "c-113",
+      "dimensional": true,
+      "displayed_amount": 2406,
+      "element_id": "f-477",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "828782a53841467f7f864825cb48d0b63b8ad960a8e93c97005062f0d8e1e0e0",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[12]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 2406
+    },
+    {
+      "context_id": "c-114",
+      "dimensional": true,
+      "displayed_amount": 2406,
+      "element_id": "f-478",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "828782a53841467f7f864825cb48d0b63b8ad960a8e93c97005062f0d8e1e0e0",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[12]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 2406
+    },
+    {
+      "context_id": "c-115",
+      "dimensional": true,
+      "displayed_amount": 0,
+      "element_id": "f-480",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "bda050585a00f0f6cb502350559d75532ae3b244c9498b996e7c5df2d98dfc8d",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[13]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 0
+    },
+    {
+      "context_id": "c-116",
+      "dimensional": true,
+      "displayed_amount": 500,
+      "element_id": "f-481",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "0604cd3138feed202ef293e062da2f4720f77a05d25ee036a7a01c9cfcdd1f0a",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[13]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 500
+    },
+    {
+      "context_id": "c-118",
+      "dimensional": true,
+      "displayed_amount": 377,
+      "element_id": "f-483",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "2c4cf657337835125bc4258d0e2e546af4185bdb70f64e1b0aa46d1d78017404",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[15]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 377
+    },
+    {
+      "context_id": "c-119",
+      "dimensional": true,
+      "displayed_amount": 446,
+      "element_id": "f-484",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "75c3e223190bf1a1fa2af808d1dfcdffe33727d57eb0028b5a52ad893480eeb9",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[15]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 446
+    },
+    {
+      "context_id": "c-122",
+      "dimensional": true,
+      "displayed_amount": 1710,
+      "element_id": "f-487",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "0b5b32b508ce077e79ecd516b2868bf7cd46525af13e3c7c36d0419a7a6781a1",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[16]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1710
+    },
+    {
+      "context_id": "c-123",
+      "dimensional": true,
+      "displayed_amount": 1983,
+      "element_id": "f-488",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "da2727b15ce779a03319ccb58c2dd69b6c2d3c780160bfb3fe337dc4df0cd413",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[16]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1983
+    },
+    {
+      "context_id": "c-126",
+      "dimensional": true,
+      "displayed_amount": 1631,
+      "element_id": "f-491",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "154e580abcd2afcf0bd9ad09d50121910797e2e8d1b26309c4f3c4e2160a88dc",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[17]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1631
+    },
+    {
+      "context_id": "c-127",
+      "dimensional": true,
+      "displayed_amount": 1839,
+      "element_id": "f-492",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "f38053bbc0c05191a9b592211b51ac8a65ccccee18e2ee75b21936ac854ca0a0",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[17]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1839
+    },
+    {
+      "context_id": "c-130",
+      "dimensional": true,
+      "displayed_amount": 4637,
+      "element_id": "f-495",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "b5e3608124b5c3654b9bccceeb2a9fe4f3044b2f3a091de2d53f4f0fd32cef1c",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[18]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 4637
+    },
+    {
+      "context_id": "c-131",
+      "dimensional": true,
+      "displayed_amount": 5123,
+      "element_id": "f-496",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "053d7129a685278d4c7440b2fabc6e17d181ce722029f07794c6bf50178e3d8a",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[18]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 5123
+    },
+    {
+      "context_id": "c-132",
+      "dimensional": true,
+      "displayed_amount": 10953,
+      "element_id": "f-497",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "445129e17fce2d621b9d5defff64e68e52c7cb360b6a829e62cb623343ca147a",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[19]/td[5]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 10953
+    },
+    {
+      "context_id": "c-133",
+      "dimensional": true,
+      "displayed_amount": 13619,
+      "element_id": "f-498",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "53445d11f830381477c80f84bda1a0f0e105251acba6d0741bc34ae4b056510f",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[19]/td[8]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 13619
+    },
+    {
+      "context_id": "c-134",
+      "dimensional": true,
+      "displayed_amount": 200,
+      "element_id": "f-500",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "27badc983df1780b60c2b3fa9d3a19a00e46aac798451f0febdca52920faaddf",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[22]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 200
+    },
+    {
+      "context_id": "c-135",
+      "dimensional": true,
+      "displayed_amount": 200,
+      "element_id": "f-501",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "27badc983df1780b60c2b3fa9d3a19a00e46aac798451f0febdca52920faaddf",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[22]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 200
+    },
+    {
+      "context_id": "c-136",
+      "dimensional": true,
+      "displayed_amount": 1250,
+      "element_id": "f-503",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "586ff1275cf938241879a607a1b7596c447129b19dfa2ea1f491919d5c3bba64",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[23]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1250
+    },
+    {
+      "context_id": "c-137",
+      "dimensional": true,
+      "displayed_amount": 1250,
+      "element_id": "f-504",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "586ff1275cf938241879a607a1b7596c447129b19dfa2ea1f491919d5c3bba64",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[23]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1250
+    },
+    {
+      "context_id": "c-138",
+      "dimensional": true,
+      "displayed_amount": 695,
+      "element_id": "f-506",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "11f8e31ccbdbb7d91589ecf40713d3a8a5d17a7ec0cebf641f975af50a1eba8d",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[24]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 695
+    },
+    {
+      "context_id": "c-139",
+      "dimensional": true,
+      "displayed_amount": 696,
+      "element_id": "f-507",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "677fe64a8ea7e98a420d129f1cf3d4d23a9f107e9fbe8d83efe95f093001cd54",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[24]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 696
+    },
+    {
+      "context_id": "c-140",
+      "dimensional": true,
+      "displayed_amount": 579,
+      "element_id": "f-509",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "59b524f8de039389005bce58385cae1d9241abd663e87647727abc8802e85c3b",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[25]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 579
+    },
+    {
+      "context_id": "c-141",
+      "dimensional": true,
+      "displayed_amount": 580,
+      "element_id": "f-510",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "de0023e398111d43424845aaeee2e119249cc0567e7b585eaba5f44080b458c6",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[25]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 580
+    },
+    {
+      "context_id": "c-142",
+      "dimensional": true,
+      "displayed_amount": 1000,
+      "element_id": "f-512",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[26]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1000
+    },
+    {
+      "context_id": "c-143",
+      "dimensional": true,
+      "displayed_amount": 1000,
+      "element_id": "f-513",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[26]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1000
+    },
+    {
+      "context_id": "c-144",
+      "dimensional": true,
+      "displayed_amount": 1000,
+      "element_id": "f-515",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[27]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1000
+    },
+    {
+      "context_id": "c-145",
+      "dimensional": true,
+      "displayed_amount": 1000,
+      "element_id": "f-516",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "66dbae68e4f498ba668b52b481891465277f250cd3cb3ced6c14144dbfae52fb",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[27]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1000
+    },
+    {
+      "context_id": "c-146",
+      "dimensional": true,
+      "displayed_amount": 1158,
+      "element_id": "f-518",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "ea192546ca8d17122084d32f5d32428c84bf5d9ea92321ce381e5deb37f1cdc0",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[28]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1158
+    },
+    {
+      "context_id": "c-147",
+      "dimensional": true,
+      "displayed_amount": 1160,
+      "element_id": "f-519",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "7f56d12eb0fa313c300e151b573dcba1ee53601c2f19e050d758dfbabfe0bab7",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[28]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1160
+    },
+    {
+      "context_id": "c-148",
+      "dimensional": true,
+      "displayed_amount": 3000,
+      "element_id": "f-521",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "5161dfd1e2d5f4fb0622f9877fc651086f50aa5c96b12e57d62913293776f912",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[29]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 3000
+    },
+    {
+      "context_id": "c-149",
+      "dimensional": true,
+      "displayed_amount": 3000,
+      "element_id": "f-522",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "5161dfd1e2d5f4fb0622f9877fc651086f50aa5c96b12e57d62913293776f912",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[29]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 3000
+    },
+    {
+      "context_id": "c-150",
+      "dimensional": true,
+      "displayed_amount": 2000,
+      "element_id": "f-524",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "eaba2fc8b501189b8e9abfa2e0feab57e75819331a3bb7886e11a41ca0f9ec19",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[30]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 2000
+    },
+    {
+      "context_id": "c-151",
+      "dimensional": true,
+      "displayed_amount": 2000,
+      "element_id": "f-525",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "eaba2fc8b501189b8e9abfa2e0feab57e75819331a3bb7886e11a41ca0f9ec19",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[30]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 2000
+    },
+    {
+      "context_id": "c-154",
+      "dimensional": true,
+      "displayed_amount": 900,
+      "element_id": "f-528",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "bdc5d8a48c23897906b09a9a3680bd2e9c8b3121edbda36f949800f0959c8d55",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[32]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 900
+    },
+    {
+      "context_id": "c-155",
+      "dimensional": true,
+      "displayed_amount": 900,
+      "element_id": "f-529",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "bdc5d8a48c23897906b09a9a3680bd2e9c8b3121edbda36f949800f0959c8d55",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[32]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 900
+    },
+    {
+      "context_id": "c-157",
+      "dimensional": true,
+      "displayed_amount": 348,
+      "element_id": "f-531",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "06b2d82840e43ed8432b3f444de18b57dbe60637c99379c708aa8e66de83dbc1",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[33]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 348
+    },
+    {
+      "context_id": "c-158",
+      "dimensional": true,
+      "displayed_amount": 348,
+      "element_id": "f-532",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "06b2d82840e43ed8432b3f444de18b57dbe60637c99379c708aa8e66de83dbc1",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[33]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 348
+    },
+    {
+      "context_id": "c-160",
+      "dimensional": true,
+      "displayed_amount": 548,
+      "element_id": "f-534",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "6e2d4d3a3d4c4bb21b095657230061140c63b1ff4d89d85e32fb9a312319b35f",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[35]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 548
+    },
+    {
+      "context_id": "c-161",
+      "dimensional": true,
+      "displayed_amount": 621,
+      "element_id": "f-535",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "90b0ce469fbd8e30a2862bb24d562dc641c534a9b43c7c33c25cfaefe25e5e47",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[35]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 621
+    },
+    {
+      "context_id": "c-164",
+      "dimensional": true,
+      "displayed_amount": 928,
+      "element_id": "f-538",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "73c2e083e4e933fc3ba76abc2bd6aea80c838c172e7db94ea473c9be4e07b2d7",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[36]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 928
+    },
+    {
+      "context_id": "c-165",
+      "dimensional": true,
+      "displayed_amount": 1010,
+      "element_id": "f-539",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "d9f68fcf80c895607866be9473de426467e3e07ec2a6f79c74209e93b03e0122",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[36]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 1010
+    },
+    {
+      "context_id": "c-166",
+      "dimensional": true,
+      "displayed_amount": 13606,
+      "element_id": "f-540",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "87f231227ead29f3aafddc86fd2bad68ee852f0484a0cfda4a4a1dcd70d6558f",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[37]/td[5]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 13606
+    },
+    {
+      "context_id": "c-167",
+      "dimensional": true,
+      "displayed_amount": 13764,
+      "element_id": "f-541",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtInstrumentCarryingAmount",
+      "trace": {
+        "normalized_text_sha256": "7bddc60f6042d7d501a16a009414a4de0ce63d93dfd6542d814efcf0fdcbbb5e",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[37]/td[8]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 13764
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 24559,
+      "element_id": "f-542",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DebtLongtermAndShorttermCombinedAmount",
+      "trace": {
+        "normalized_text_sha256": "38b8ddc9d630c4f875b50e2c8c1fbfbcac9f74acb93c56f356beab0b9b6ad962",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[38]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 24559
+    },
+    {
+      "context_id": "c-15",
+      "dimensional": false,
+      "displayed_amount": 27383,
+      "element_id": "f-543",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DebtLongtermAndShorttermCombinedAmount",
+      "trace": {
+        "normalized_text_sha256": "d61c4318731802d5ec30cc4ccdd4a1ff5e2de977c10affa6e5417db2162652a3",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[38]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 27383
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": -647,
+      "element_id": "f-544",
+      "entity": "0000815097",
+      "presentation_direction": -1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:DeferredFinanceCostsNet",
+      "trace": {
+        "normalized_text_sha256": "86bc00bf176c8b99e9cbdd89afdd2492de002c1dcce63606f711e0c04203c4da",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[39]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 647
+    },
+    {
+      "context_id": "c-15",
+      "dimensional": false,
+      "displayed_amount": -744,
+      "element_id": "f-545",
+      "entity": "0000815097",
+      "presentation_direction": -1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:DeferredFinanceCostsNet",
+      "trace": {
+        "normalized_text_sha256": "a15faf6f6c7e4c11d7956175f4a1c01edffff6e114684eee28c255a86a8888f8",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[39]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 744
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 23912,
+      "element_id": "f-546",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+      "trace": {
+        "normalized_text_sha256": "45f7ab4180ed872156b879286c8f377efc2b147d1d45e60651f8a3db28fd4414",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[40]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 23912
+    },
+    {
+      "context_id": "c-15",
+      "dimensional": false,
+      "displayed_amount": 26640,
+      "element_id": "f-547",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:LongTermDebtAndCapitalLeaseObligationsIncludingCurrentMaturities",
+      "trace": {
+        "normalized_text_sha256": "da7967d3dcf147aab5db55f77bea86f47dbedf81e77dd84296420524115ec486",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[40]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 26640
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": -2036,
+      "element_id": "f-548",
+      "entity": "0000815097",
+      "presentation_direction": -1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:LongTermDebtCurrent",
+      "trace": {
+        "normalized_text_sha256": "e4379988750caa1f546c233007ff8d574ac3fbe2447e72db74cf971a185d1a0b",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[42]/td[6]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 2036
+    },
+    {
+      "context_id": "c-15",
+      "dimensional": false,
+      "displayed_amount": -2603,
+      "element_id": "f-549",
+      "entity": "0000815097",
+      "presentation_direction": -1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:LongTermDebtCurrent",
+      "trace": {
+        "normalized_text_sha256": "a691e7b301655ce5fdfc448d07fa9fc791cc9267abd374268e918b9c47031cb2",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[42]/td[9]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 2603
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 21876,
+      "element_id": "f-550",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:LongTermDebtNoncurrent",
+      "trace": {
+        "normalized_text_sha256": "aefd3ed710a6950570ba5bab3a4c1653127179329c9c0b116db4218d5691ddc6",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[43]/td[7]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 21876
+    },
+    {
+      "context_id": "c-15",
+      "dimensional": false,
+      "displayed_amount": 24037,
+      "element_id": "f-551",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2025-11-30",
+      "tag": "us-gaap:LongTermDebtNoncurrent",
+      "trace": {
+        "normalized_text_sha256": "fe316a0ff0c9b843036ec665214bf89424364df415c883b30f9f644c795360a0",
+        "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[43]/td[11]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 24037
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 301,
+      "element_id": "f-560",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalRemainderOfFiscalYear",
+      "trace": {
+        "normalized_text_sha256": "c3ea99f86b2f8a74ef4145bb245155ff5f91cd856f287523481c15a1959d5fd1",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[4]/td[4]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 301
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 2517,
+      "element_id": "f-561",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInNextTwelveMonths",
+      "trace": {
+        "normalized_text_sha256": "906eabf8208ca4d2ab52e988e8444df1f4b046ad3c6ecf037e394aaf95f0cd61",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[5]/td[3]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 2517
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 3961,
+      "element_id": "f-562",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearTwo",
+      "trace": {
+        "normalized_text_sha256": "69166879e4804a6a03a1c51197dba49a9f3daf71877e53953b58924b19bbca67",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[6]/td[3]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 3961
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 3631,
+      "element_id": "f-563",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearThree",
+      "trace": {
+        "normalized_text_sha256": "b0901a611ae472ed6d6f3012b5be446e9d2017a4f5a82b1b8de7b437a4a19dcb",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[7]/td[3]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 3631
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 2885,
+      "element_id": "f-564",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:LongTermDebtMaturitiesRepaymentsOfPrincipalInYearFour",
+      "trace": {
+        "normalized_text_sha256": "d48f79f689277f90b8581f8831c568b33f5c0b1049a6c0db045383f91b1484bb",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[8]/td[3]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 2885
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 11264,
+      "element_id": "f-565",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "ccl:LongTermDebtMaturityAfterYearFour",
+      "trace": {
+        "normalized_text_sha256": "9f71edd127000e4bcdc0381affb1e24b6978f0224c1d4302058a2c8580b9e7b7",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[9]/td[3]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 11264
+    },
+    {
+      "context_id": "c-14",
+      "dimensional": false,
+      "displayed_amount": 24559,
+      "element_id": "f-566",
+      "entity": "0000815097",
+      "presentation_direction": 1,
+      "report_date": "2026-08-31",
+      "tag": "us-gaap:LongTermDebt",
+      "trace": {
+        "normalized_text_sha256": "38b8ddc9d630c4f875b50e2c8c1fbfbcac9f74acb93c56f356beab0b9b6ad962",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[10]/td[4]/span/ix:nonfraction"
+      },
+      "units": "USD million",
+      "xbrl_account_value": 24559
+    }
+  ],
+  "method_scope": "Source-informed registered descriptive debt, financial liquidity proxy and synthetic arithmetic; not legal recovery, covenant compliance, forecast, investment recommendation, independent review or mastery",
+  "old_full_recovery_criterion": "FAILED_AND_UNCHANGED",
+  "reported_debt": {
+    "absent_secured_subtotal": null,
+    "actual_signed_display_gaps_usd_millions": {
+      "comparative": {
+        "Unsecured (No Subsidiary Guarantee) instrument_sum_minus_reported_subtotal": 1,
+        "Unsecured Subsidiary Guaranteed instrument_sum_minus_reported_subtotal": 1,
+        "principal_minus_costs_minus_carrying": -1
+      },
+      "current": {
+        "Unsecured (No Subsidiary Guarantee) instrument_sum_minus_reported_subtotal": 0,
+        "Unsecured Subsidiary Guaranteed instrument_sum_minus_reported_subtotal": 0,
+        "principal_minus_costs_minus_carrying": 0
+      }
+    },
+    "comparative_classification_basis": "Presentation in Q3 filing, not original-vintage security/guarantee status",
+    "comparative_date": "2025-11-30",
+    "current_date": "2026-08-31",
+    "instruments": [
+      {
+        "comparative_usd_millions": 1131,
+        "current_usd_millions": 0,
+        "kind": "Notes",
+        "label": "Convertible Notes",
+        "maturity_display": "Dec 2025 (b)",
+        "rate_display": "5.75 %",
+        "reported_category": "Unsecured Subsidiary Guaranteed",
+        "trace": {
+          "normalized_text_sha256": "d03382b1b1d087a6d6ba49576ff536ddef90758f3b5fe73153262fd36283f90b",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[10]"
+        }
+      },
+      {
+        "comparative_usd_millions": 192,
+        "current_usd_millions": 192,
+        "kind": "Notes",
+        "label": "Notes (c)",
+        "maturity_display": "Jun 2027",
+        "rate_display": "7.88 %",
+        "reported_category": "Unsecured Subsidiary Guaranteed",
+        "trace": {
+          "normalized_text_sha256": "e8a5f2b8c623ff6208093cbebcb22707aa3669d568bd7becf7aa7d0a8c0f2a88",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[11]"
+        }
+      },
+      {
+        "comparative_usd_millions": 2406,
+        "current_usd_millions": 2406,
+        "kind": "Notes",
+        "label": "Notes (c)",
+        "maturity_display": "Aug 2028",
+        "rate_display": "4.00 %",
+        "reported_category": "Unsecured Subsidiary Guaranteed",
+        "trace": {
+          "normalized_text_sha256": "3fb78994b1b7aa55b4b031b139059ad427a3e3d6b618489ddee435310e9351f7",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[12]"
+        }
+      },
+      {
+        "comparative_usd_millions": 500,
+        "current_usd_millions": 0,
+        "kind": "Notes",
+        "label": "Notes (d)",
+        "maturity_display": "Aug 2029",
+        "rate_display": "7.00 %",
+        "reported_category": "Unsecured Subsidiary Guaranteed",
+        "trace": {
+          "normalized_text_sha256": "8a8307bd1fe08c5ee55224efaf8349e82b086e0f3062e789f07f1676ae2005e5",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[13]"
+        }
+      },
+      {
+        "comparative_usd_millions": 446,
+        "current_usd_millions": 377,
+        "kind": "Export Credit Facilities",
+        "label": "Floating rate",
+        "maturity_display": "Dec 2031",
+        "rate_display": "SOFR + 1.20 % (e)",
+        "reported_category": "Unsecured Subsidiary Guaranteed",
+        "trace": {
+          "normalized_text_sha256": "2e5be796c41f14012bbadafff2e4fc85e6cc3febc98f0332128747280b7d6d99",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[15]"
+        }
+      },
+      {
+        "comparative_usd_millions": 1983,
+        "current_usd_millions": 1710,
+        "kind": "Export Credit Facilities",
+        "label": "Fixed rate",
+        "maturity_display": "Aug 2027 - Dec 2032",
+        "rate_display": "2.42 - 3.38 %",
+        "reported_category": "Unsecured Subsidiary Guaranteed",
+        "trace": {
+          "normalized_text_sha256": "bef3ab7d875bcf62a4f1b85f6c9ef323841dfa44f763a02e455dbd5690513863",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[16]"
+        }
+      },
+      {
+        "comparative_usd_millions": 1839,
+        "current_usd_millions": 1631,
+        "kind": "Export Credit Facilities",
+        "label": "EUR floating rate",
+        "maturity_display": "Oct 2026 - Nov 2034",
+        "rate_display": "EURIBOR + 0.55 - 0.80 %",
+        "reported_category": "Unsecured Subsidiary Guaranteed",
+        "trace": {
+          "normalized_text_sha256": "e1f3cfdf8533cdcdae923547bbd1e04998e25a947696d8a96716f4922bc8e410",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[17]"
+        }
+      },
+      {
+        "comparative_usd_millions": 5123,
+        "current_usd_millions": 4637,
+        "kind": "Export Credit Facilities",
+        "label": "EUR fixed rate",
+        "maturity_display": "Feb 2031 - Sep 2037",
+        "rate_display": "1.05 - 4.00 %",
+        "reported_category": "Unsecured Subsidiary Guaranteed",
+        "trace": {
+          "normalized_text_sha256": "3bad0267cb5846d31412763caf466326298c66a2b72c143508236502924ebbcf",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[18]"
+        }
+      },
+      {
+        "comparative_usd_millions": 200,
+        "current_usd_millions": 200,
+        "kind": "Notes",
+        "label": "Notes",
+        "maturity_display": "Jan 2028",
+        "rate_display": "6.65 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "56879fffd5ffeb1f1596f9130353ec2ee413febd3bfb45f3b95a4273cfa678e7",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[22]"
+        }
+      },
+      {
+        "comparative_usd_millions": 1250,
+        "current_usd_millions": 1250,
+        "kind": "Notes",
+        "label": "Notes (f)",
+        "maturity_display": "May 2029",
+        "rate_display": "5.13 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "da49ffd23df0c3b5eb1ca87a9534239e48ff65aaebd0e7395f9af5552b6b8b54",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[23]"
+        }
+      },
+      {
+        "comparative_usd_millions": 696,
+        "current_usd_millions": 695,
+        "kind": "Notes",
+        "label": "EUR Notes",
+        "maturity_display": "Oct 2029",
+        "rate_display": "1.00 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "8c1d365482ed53b1bde11d8dca16cca06443fc06ade1b61289cfa28bcf8a6932",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[24]"
+        }
+      },
+      {
+        "comparative_usd_millions": 580,
+        "current_usd_millions": 579,
+        "kind": "Notes",
+        "label": "EUR Notes (f)",
+        "maturity_display": "Jan 2030",
+        "rate_display": "5.75 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "d1ff75e3121b625b96439012f0bec082c6f09e1f45fc3001f45efbc596553048",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[25]"
+        }
+      },
+      {
+        "comparative_usd_millions": 1000,
+        "current_usd_millions": 1000,
+        "kind": "Notes",
+        "label": "Notes (f)",
+        "maturity_display": "Mar 2030",
+        "rate_display": "5.75 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "21b4db614d1374c2154ef5fab9f163add00ab8ff35ed11e756d16c27626983f7",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[26]"
+        }
+      },
+      {
+        "comparative_usd_millions": 1000,
+        "current_usd_millions": 1000,
+        "kind": "Notes",
+        "label": "Notes (f)",
+        "maturity_display": "Jun 2031",
+        "rate_display": "5.88 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "7269bc5fc7c49371f8eb4c622b958b87532012cc6bf54bbfd450085f6ada7b9e",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[27]"
+        }
+      },
+      {
+        "comparative_usd_millions": 1160,
+        "current_usd_millions": 1158,
+        "kind": "Notes",
+        "label": "EUR Notes (f)",
+        "maturity_display": "Jul 2031",
+        "rate_display": "4.13 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "bd90174b4f22185f9c08167e6ae3fbfde4fa5cf444f6effc334994108dad8592",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[28]"
+        }
+      },
+      {
+        "comparative_usd_millions": 3000,
+        "current_usd_millions": 3000,
+        "kind": "Notes",
+        "label": "Notes (f)",
+        "maturity_display": "Aug 2032",
+        "rate_display": "5.75 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "6f3ee61a6922d3d50e7e0d5687b2fcccfab83237e3272202c57ea2c9f2deb923",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[29]"
+        }
+      },
+      {
+        "comparative_usd_millions": 2000,
+        "current_usd_millions": 2000,
+        "kind": "Notes",
+        "label": "Notes (f)",
+        "maturity_display": "Feb 2033",
+        "rate_display": "6.13 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "7000b8527b49794dcf7fe30e6c7d4002e40fa3e0cab5ecd1718279cad17f797f",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[30]"
+        }
+      },
+      {
+        "comparative_usd_millions": 900,
+        "current_usd_millions": 900,
+        "kind": "Loans",
+        "label": "Floating rate (f)",
+        "maturity_display": "Aug 2027 - Nov 2027",
+        "rate_display": "SOFR + 1.13 - 1.38 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "84b651e1c51d12b9cb09d24c8b35c4efe2a4fb120f57181084760795f7aa39cf",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[32]"
+        }
+      },
+      {
+        "comparative_usd_millions": 348,
+        "current_usd_millions": 348,
+        "kind": "Loans",
+        "label": "EUR floating rate",
+        "maturity_display": "Apr 2029",
+        "rate_display": "EURIBOR + 1.95 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "3a68d59fb2f3f0057eadb4fd77c9d415df531bd268568e6695b58dd9166059db",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[33]"
+        }
+      },
+      {
+        "comparative_usd_millions": 621,
+        "current_usd_millions": 548,
+        "kind": "Export Credit Facilities",
+        "label": "EUR floating rate (f)",
+        "maturity_display": "Dec 2033",
+        "rate_display": "EURIBOR + 0.55 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "58c7a95b55a06187d5ac5ce8b82fab43e59b3f681d7b4bd45b5e38b7ba2bffe9",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[35]"
+        }
+      },
+      {
+        "comparative_usd_millions": 1010,
+        "current_usd_millions": 928,
+        "kind": "Export Credit Facilities",
+        "label": "EUR fixed rate (f)",
+        "maturity_display": "Jan 2034 - Apr 2036",
+        "rate_display": "1.25 - 1.73 %",
+        "reported_category": "Unsecured (No Subsidiary Guarantee)",
+        "trace": {
+          "normalized_text_sha256": "9fd79b27d9f0f7c2fbac4bc6fccd9c93eaac773f0bf68b1aa6ef526008e1d330",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[36]"
+        }
+      }
+    ],
+    "pre_existing_display_tolerance_usd_millions": 2,
+    "source_table_trace": {
+      "normalized_text_sha256": "bc91fef097b12763b971e4cde1907641dd4929b6d08997becaac69738bd9406f",
+      "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table"
+    },
+    "subtotals": {
+      "Less: Current portion of long-term debt": {
+        "comparative_usd_millions": -2603,
+        "current_usd_millions": -2036,
+        "trace": {
+          "normalized_text_sha256": "220dcc85a1e5935897e3daeeea8ea59b8f5a7cd2d82b554c2723557c4fdb7a70",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[42]"
+        }
+      },
+      "Less: unamortized debt issuance costs and discounts": {
+        "comparative_usd_millions": -744,
+        "current_usd_millions": -647,
+        "trace": {
+          "normalized_text_sha256": "83e1d0c4a737ab1c7f271f0decde5d00f70a37f086407f8595a4c0ae20bfa3d5",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[39]"
+        }
+      },
+      "Long-Term Debt": {
+        "comparative_usd_millions": 24037,
+        "current_usd_millions": 21876,
+        "trace": {
+          "normalized_text_sha256": "754c0680d2d3e2fa43ad22c281a982f001ddb8c6af1d7310a9b12ac134a20de8",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[43]"
+        }
+      },
+      "Total Debt": {
+        "comparative_usd_millions": 27383,
+        "current_usd_millions": 24559,
+        "trace": {
+          "normalized_text_sha256": "3a96b04d7fa4309bbde49d10df03815fc4ddd91b74cae5245ea8566052538cce",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[38]"
+        }
+      },
+      "Total Debt, net of unamortized debt issuance costs and discounts": {
+        "comparative_usd_millions": 26640,
+        "current_usd_millions": 23912,
+        "trace": {
+          "normalized_text_sha256": "3b7da2833d5b9f1869dd44275b82be6f803f85a85af48b781174a09316fd1a3e",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[40]"
+        }
+      },
+      "Total Unsecured (No Subsidiary Guarantee)": {
+        "comparative_usd_millions": 13764,
+        "current_usd_millions": 13606,
+        "trace": {
+          "normalized_text_sha256": "e4d2404f7fe880dce07bfb4bed931443bb6e51337873e7f270dcceb3368816a0",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[37]"
+        }
+      },
+      "Total Unsecured Subsidiary Guaranteed": {
+        "comparative_usd_millions": 13619,
+        "current_usd_millions": 10953,
+        "trace": {
+          "normalized_text_sha256": "932c501b93db385afdc57d6bba02514a253e86a32879ab5922194f30dc1a6a0d",
+          "xpath": "/html/body/div[125]/ix:nonnumeric/ix:continuation/table/tr[19]"
+        }
+      }
+    }
+  },
+  "reported_maturities": {
+    "2027": {
+      "principal_usd_millions": 2517,
+      "trace": {
+        "normalized_text_sha256": "96a8f982749657103019a2e45f931b3799ec296c39c32e5f1f3ea439eb13f001",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[5]"
+      }
+    },
+    "2028": {
+      "principal_usd_millions": 3961,
+      "trace": {
+        "normalized_text_sha256": "cc37d9e52c9eaccdf4d490ebd0e9e6f3bf74693879091a9206865ca647725e37",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[6]"
+      }
+    },
+    "2029": {
+      "principal_usd_millions": 3631,
+      "trace": {
+        "normalized_text_sha256": "6251fe000ba3a53c5f47a16df611e5d6e02eb0470a5c035e51e5b4c93ffcda44",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[7]"
+      }
+    },
+    "2030": {
+      "principal_usd_millions": 2885,
+      "trace": {
+        "normalized_text_sha256": "0819efc5eed6e1cb8fca6de454faffc93cdd64ea161ff7ed94e958c5b8a42a7e",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[8]"
+      }
+    },
+    "Remainder of 2026": {
+      "principal_usd_millions": 301,
+      "trace": {
+        "normalized_text_sha256": "c42b6a697d45b854cfa9b5d670478e9bb0b6e123ab504dc5ec74b5f9d4b84dd4",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[4]"
+      }
+    },
+    "Thereafter": {
+      "principal_usd_millions": 11264,
+      "trace": {
+        "normalized_text_sha256": "232336c7d08121c26e6754fcfecf3df1a08c539d836aca53c8315c4f2a667ca1",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[9]"
+      }
+    },
+    "Total": {
+      "principal_usd_millions": 24559,
+      "trace": {
+        "normalized_text_sha256": "edea0fc9757a50e86558f5bbb7932817125a91e7fae4c3d4a682cdab8e29204a",
+        "xpath": "/html/body/ix:continuation[4]/ix:nonnumeric/div[3]/table/tr[10]"
+      }
+    }
+  },
+  "reported_obligor_summary": {
+    "existing_debt_instrument_estate_mapping": null,
+    "intercompany_due_from_nonobligors_retained": true,
+    "investments_in_nonobligor_subsidiaries_excluded": true,
+    "nonobligor_assets_inferred_by_subtraction": null,
+    "reported_combined_balances": {
+      "Current assets - due from Non-Obligor Subsidiaries": {
+        "comparative_usd_millions": 4926,
+        "current_usd_millions": 3093,
+        "trace": {
+          "normalized_text_sha256": "f4b8ecd4e3c2743e5d90ef60a4f652fc8b4a0cbad866adaf385ad34dfde4b846",
+          "xpath": "/html/body/div[488]/table/tr[4]"
+        }
+      },
+      "Current assets - excluding due from Non-Obligor Subsidiaries": {
+        "comparative_usd_millions": 2565,
+        "current_usd_millions": 1876,
+        "trace": {
+          "normalized_text_sha256": "bda47badee1908ab62285f215a96aa06f39c53d84fe74b806e6049f3b4b667f4",
+          "xpath": "/html/body/div[488]/table/tr[3]"
+        }
+      },
+      "Current liabilities": {
+        "comparative_usd_millions": 7265,
+        "current_usd_millions": 6469,
+        "trace": {
+          "normalized_text_sha256": "ea39fc5cef2d7ae13446249b8bd05681b29c9f1c7fb6567aff2493966acd03a4",
+          "xpath": "/html/body/div[488]/table/tr[6]"
+        }
+      },
+      "Noncurrent assets": {
+        "comparative_usd_millions": 22409,
+        "current_usd_millions": 24840,
+        "trace": {
+          "normalized_text_sha256": "ec254d30e95088c38da52bd69d755907916c7278512fe7817c6ae75e47e0f5a2",
+          "xpath": "/html/body/div[488]/table/tr[5]"
+        }
+      },
+      "Noncurrent liabilities": {
+        "comparative_usd_millions": 24066,
+        "current_usd_millions": 22022,
+        "trace": {
+          "normalized_text_sha256": "6679d82fdf024df0a54ac67404bd9ff841302895068984effaca45cfbf2b9231",
+          "xpath": "/html/body/div[488]/table/tr[7]"
+        }
+      }
+    },
+    "units": "USD million; supplemental table has no inline XBRL amount tags"
+  },
+  "source": {
+    "accession": "0000815097-26-000107",
+    "capture_scope": "Current API bodies with frozen original filing; not original-vintage API history",
+    "filed_on": "2026-09-29",
+    "original_html": {
+      "bytes": 1201109,
+      "filename": "10Q_2026-08-31_000081509726000107.html",
+      "kind": "filing_html",
+      "sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+      "url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm"
+    },
+    "original_zip_sha256": "f49431e44e83cac39071dd95fdaa56515ca4b540d8522201e400ab6859beed9c",
+    "report_date": "2026-08-31"
+  },
+  "synthetic_contract": {
+    "absolute_tolerance": "1E-40",
+    "cases": 832,
+    "claim_values": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "creditors": 3,
+    "decimal_precision_digits": 60,
+    "estate_values": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "example": {
+      "actual_issuer_recovery": null,
+      "claims": {
+        "A": "5",
+        "B": "3",
+        "C": "2"
+      },
+      "currency_rounding_or_legal_priority": null,
+      "estate": "7",
+      "payments": {
+        "A": "3.5",
+        "B": "2.1",
+        "C": "1.4"
+      },
+      "precision_digits": 60,
+      "residual": "0",
+      "scope": "Synthetic single-estate pari-passu analytical sensitivity"
+    },
+    "independent_oracle": "Fraction exact proportional allocation, independently evaluated",
+    "individual_monotonicity_checks": 2304,
+    "max_absolute_oracle_error": "4.2857142857142857143E-60",
+    "observed_contract_failures": 0,
+    "permutation_checks": 4992,
+    "scope": "Constructed finite conformance grid; not observed debtor recoveries"
+  },
+  "unsupported_requests": [
+    {
+      "reason": "The current filing does not establish complete agreements, entity/asset/claim/priority mapping and independent legal analysis",
+      "request": "actual_q3_recovery",
+      "status": "REFUSED",
+      "value": null
+    },
+    {
+      "reason": "The current filing does not establish complete agreements, entity/asset/claim/priority mapping and independent legal analysis",
+      "request": "legal_entity_mapping",
+      "status": "REFUSED",
+      "value": null
+    },
+    {
+      "reason": "The current filing does not establish complete agreements, entity/asset/claim/priority mapping and independent legal analysis",
+      "request": "covenant_compliance",
+      "status": "REFUSED",
+      "value": null
+    },
+    {
+      "reason": "The current filing does not establish complete agreements, entity/asset/claim/priority mapping and independent legal analysis",
+      "request": "legal_opinion",
+      "status": "REFUSED",
+      "value": null
+    }
+  ],
+  "whole_entity_cash_balance_context": {
+    "accession": "0000815097-26-000107",
+    "agreeing_inline_occurrences": 1,
+    "context_id": "c-14",
+    "end": "2026-08-31",
+    "filed": "2026-09-29",
+    "form": "10-Q",
+    "metric": "cash",
+    "source_sha256": "e3754e6754f83dc620d85fb672452401ea121e63c5b929d1458a9f0475bc4d3d",
+    "source_url": "https://www.sec.gov/Archives/edgar/data/815097/000081509726000107/ccl-20260831.htm",
+    "value_usd_millions": 1220.0,
+    "xbrl_tag": "CashAndCashEquivalentsAtCarryingValue"
+  }
+}
